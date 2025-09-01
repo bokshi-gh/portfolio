@@ -21,7 +21,7 @@ a{
 
 #container{
 	height: 100%;
-	max-width: 50%;
+	width: fit-content;
 	padding: 1.5rem;
 	display: flex;
 	flex-direction: column;

@@ -13,7 +13,6 @@ async function loadBlog() {
     const blogs = await response.json();
 
     const blog = blogs.find(b => b.title === titleParam);
-    console.log(blog)
     if (blog) {
       
       container.innerHTML = `
