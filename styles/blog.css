@@ -21,7 +21,7 @@ a{
 
 #container{
 	height: 100%;
-	width: fit-content;
+	max-width: 50%;
 	padding: 1.5rem;
 	display: flex;
 	flex-direction: column;
@@ -30,4 +30,10 @@ a{
 
 #container .date{
 	margin-top: 0.5rem;
+}
+
+@media (min-width: 1000px){
+	#container{
+		max-width: 50%;
+	}
 }

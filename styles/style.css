@@ -40,3 +40,9 @@ a{
 	flex-direction: column;
 	gap: 0.5rem;
 }
+
+@media (min-width: 1000px){
+	.container{
+		max-width: 50%;
+	}
+}
