@@ -14,13 +14,13 @@ body{
 }
 
 a{
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .container{
 	height: 100%;
 	width: 100%;
-	padding: 2rem;
+	padding: 1.5rem;
 	display: flex;
 	flex-direction: column;
 	gap: 2.5rem;
