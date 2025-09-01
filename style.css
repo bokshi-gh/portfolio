@@ -6,12 +6,12 @@
 }
 
 body{
-    height: 100dvh;
+    min-height: 100dvh;
     width: 100%;
 }
 
 a{
-	color: #0077CC;
+	font-weight: 600;
 }
 
 .container{
@@ -26,5 +26,11 @@ a{
 .container .socials{
 	margin-top: 0.5rem;
 	display: flex;
+	gap: 0.5rem;
+}
+
+.container .project-wrapper .projects, .container .blog-wrapper .blogs{
+	display: flex;
+	flex-direction: column;
 	gap: 0.5rem;
 }
