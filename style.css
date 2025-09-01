@@ -18,8 +18,13 @@ a{
 	height: 100%;
 	width: 100%;
 	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
 }
 
-.name{
-	font-weight: bolder;
+.container .socials{
+	margin-top: 0.5rem;
+	display: flex;
+	gap: 0.5rem;
 }
