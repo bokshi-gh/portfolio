@@ -19,7 +19,7 @@ a{
 	font-weight: 600;
 }
 
-.container{
+#container{
 	height: 100%;
 	width: fit-content;
 	padding: 1.5rem;
@@ -28,6 +28,6 @@ a{
 	gap: 2.5rem;
 }
 
-.container .date{
+#container .date{
 	margin-top: 10rem;
 }

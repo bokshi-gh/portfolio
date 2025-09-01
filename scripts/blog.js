@@ -1,4 +1,4 @@
-let container = document.getElementsByClassName("container");
+let container = document.getElementById("container");
 
 function getQueryParam(param) {
   const urlParams = new URLSearchParams(window.location.search);
