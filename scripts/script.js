@@ -8,7 +8,7 @@ async function loadBlog(){
 
 	    if (blogs) {
 	      
-	      blogs.array.forEach(blog => {
+	      blogs.forEach(blog => {
 				blogsContainer += `
                 
 		<p><a href="/${blog.title}">${blog.title}</a> | ${blog.date}</p>
