@@ -11,7 +11,7 @@ async function loadBlog(){
 	      blogs.forEach(blog => {
 				blogsContainer.innerHTML += `
                 
-		<p><a href="/${blog.title}">${blog.title}</a> | ${blog.date}</p>
+		<p><a href="/?title=${blog.title}">${blog.title}</a> | ${blog.date}</p>
 	      `;
 	      });
 	    } else {
