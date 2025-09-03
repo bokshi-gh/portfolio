@@ -1,6 +1,6 @@
 let blogList = document.getElementById("blog-list");
 
-blogList.innerHTML = "<p>fetching blogs...</p>"
+blogList.innerHTML = "<p>fetching blogs...</p>";
 
 async function loadBlogList() {
   try {
@@ -25,6 +25,7 @@ async function loadBlogList() {
         // Use filename as blog title
         const filename = file.name
 
+        blogList.innerHTML = "";
         blogList.innerHTML += `
           <p>
             <a href="/blog.html?file=${file.name}">${filename}</a> | ${date}
@@ -32,10 +33,12 @@ async function loadBlogList() {
         `;
       }
     } else {
+      blogList.innerHTML = "";
       blogList.innerHTML = `<p>Oops! No blogs found</p>`;
     }
   } catch (err) {
     console.error(err);
+    blogList.innerHTML = "";
     blogList.innerHTML = `<p>Error loading blogs :(</p>`;
   }
 }
