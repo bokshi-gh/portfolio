@@ -20,7 +20,7 @@ async function loadBlogPost() {
 
     document.title = fileName;
 
-    const content = response.text();
+    const content = await response.text();
 
     const lines = content.split("\n");
     const date = (lines[0]).trim();
