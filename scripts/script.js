@@ -14,6 +14,7 @@ async function loadBlogList() {
     const files = await response.json();
 
     if (Array.isArray(files)) {
+      blogList.innerHTML = "";
       for (const file of files) {
         const content = await fetch(file.download_url).then(res => res.text());
 
@@ -24,8 +25,7 @@ async function loadBlogList() {
 
         // Use filename as blog title
         const filename = file.name
-
-        blogList.innerHTML = "";
+        
         blogList.innerHTML += `
           <p>
             <a href="/blog.html?file=${file.name}">${filename}</a> | ${date}
