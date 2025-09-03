@@ -14,8 +14,10 @@ async function loadBlogList() {
     const files = await response.json();
 
     if (Array.isArray(files)) {
-      blogList.innerHTML = "";
+      let html = "";
       for (const file of files) {
+        if (file.type !== "file" || !file.download_url) continue;
+
         const content = await fetch(file.download_url).then(res => res.text());
 
         // Split by lines
@@ -26,19 +28,19 @@ async function loadBlogList() {
         // Use filename as blog title
         const filename = file.name
         
-        blogList.innerHTML += `
+        html += `
           <p>
             <a href="/blog.html?file=${file.name}">${filename}</a> | ${date}
           </p>
         `;
       }
+
+      blogList.innerHTML = html;
     } else {
-      blogList.innerHTML = "";
       blogList.innerHTML = `<p>Oops! No blogs found</p>`;
     }
   } catch (err) {
     console.error(err);
-    blogList.innerHTML = "";
     blogList.innerHTML = `<p>Error loading blogs :(</p>`;
   }
 }
