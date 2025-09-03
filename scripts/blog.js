@@ -11,7 +11,14 @@ async function loadBlogPost() {
     const repoName = "portfolio";
     const fileUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/blogs/${fileName}`;
 
-    const content = await fetch(fileUrl).then(res => res.text());
+    const response = await fetch(fileUrl);
+
+    if(!response.ok){
+			document.getElementById("container").innerHTML = "Oops! This blog doesn’t seem to exist. It might have been deleted, migrated, or simply never existed";
+			return;
+    }
+
+    document.title = fileName;
 
     const lines = content.split("\n");
     const date = (lines[0]).trim();
