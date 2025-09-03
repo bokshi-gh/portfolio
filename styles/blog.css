@@ -24,7 +24,7 @@ body{
 	gap: 2.5rem;
 }
 
-#container .blog-header .blog-date{
+#container .blog-header #blog-date{
 	margin-top: 0.5rem;
 }
 
