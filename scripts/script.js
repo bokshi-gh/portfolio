@@ -1,4 +1,4 @@
-let blogsContainer = document.getElementById("blogs");
+let blogList = document.getElementById("blog-list");
 
 async function loadBlog(){
 	try {
@@ -8,13 +8,13 @@ async function loadBlog(){
 	    if (blogs) {
 	      
 	      blogs.forEach(blog => {
-				blogsContainer.innerHTML += `
+				blogList.innerHTML += `
                 
 		<p><a href="/blog.html?title=${blog.title}">${blog.title}</a> | ${blog.date}</p>
 	      `;
 	      });
 	    } else {
-	      blogsContainer.innerHTML = `<p>Blog not found.</p>`;
+	      blogList.innerHTML = `<p>Blog not found.</p>`;
 	    }
 	  } catch (err) {
 	    console.error(err);
