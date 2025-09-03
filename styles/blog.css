@@ -25,7 +25,7 @@ body{
 }
 
 #container .blog-header #blog-date{
-	margin-top: 0.5rem;
+	margin-top: 0.8rem;
 }
 
 @media (min-width: 1000px){
