@@ -1,6 +1,6 @@
 let blogList = document.getElementById("blog-list");
 
-blogList.innerHTML = "<p>fetching blogs...</p>";
+blogList.innerHTML = "<p>Fetching blogs...</p>";
 
 async function loadBlogList() {
   try {
