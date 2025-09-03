@@ -1,34 +1,41 @@
-async function loadBlogPost() {
-  try {
-    const params = new URLSearchParams(window.location.search);
-    const fileName = params.get("file");
-    if (!fileName) {
-      document.body.innerHTML = "<p>No blog selected.</p>";
-      return;
-    }
+let blogList = document.getElementById("blog-list");
 
+async function loadBlogList() {
+  try {
     const repoOwner = "bokshi-gh";
     const repoName = "portfolio";
-    const fileUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/blogs/${fileName}`;
+    const path = "blogs";
 
-    const content = await fetch(fileUrl).then(res => res.text());
+    // Get list of files in blogs folder
+    const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${path}`;
+    const response = await fetch(apiUrl);
+    const files = await response.json();
 
-    const lines = content.split("\n");
-    const date = (lines[0]).trim();
+    if (Array.isArray(files)) {
+      for (const file of files) {
+        const content = await fetch(file.download_url).then(res => res.text());
 
-    const bodyHtml = lines.slice(2).join("\n").trim();
+        // Split by lines
+        const lines = content.split("\n");
 
-    // Use file name as title
-    const title = fileName
+        const date = (lines[0]).trim();
 
-    document.getElementById("blog-title").innerText = title;
-    document.getElementById("blog-date").innerText = date;
-    document.getElementById("blog-content").innerHTML = bodyHtml;
+        // Use filename as blog title
+        const filename = file.name
+
+        blogList.innerHTML += `
+          <p>
+            <a href="/blog.html?file=${file.name}">${filename}</a> | ${date}
+          </p>
+        `;
+      }
+    } else {
+      blogList.innerHTML = `<p>No blogs found.</p>`;
+    }
   } catch (err) {
     console.error(err);
-    document.body.innerHTML = "<p>Error loading blog post.</p>";
+    blogList.innerHTML = `<p>Error loading blogs.</p>`;
   }
 }
 
-loadBlogPost();
-
+loadBlogList();
