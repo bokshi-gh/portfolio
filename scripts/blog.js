@@ -3,7 +3,7 @@ async function loadBlogPost() {
     const params = new URLSearchParams(window.location.search);
     const fileName = params.get("file");
     if (!fileName) {
-      document.body.innerHTML = "<p>No blog selected.</p>";
+      document.getElementById("container").innerHTML = "<p>No blog selected</p>";
       return;
     }
 
@@ -26,7 +26,7 @@ async function loadBlogPost() {
     document.getElementById("blog-content").innerHTML = bodyHtml;
   } catch (err) {
     console.error(err);
-    document.body.innerHTML = "<p>Error loading blog post.</p>";
+    document.getElementById("container").innerHTML = "<p>Error loading blog post :(</p>";
   }
 }
 

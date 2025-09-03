@@ -30,11 +30,11 @@ async function loadBlogList() {
         `;
       }
     } else {
-      blogList.innerHTML = `<p>No blogs found.</p>`;
+      blogList.innerHTML = `<p>No blogs found</p>`;
     }
   } catch (err) {
     console.error(err);
-    blogList.innerHTML = `<p>Error loading blogs.</p>`;
+    blogList.innerHTML = `<p>Error loading blogs :(</p>`;
   }
 }
 
