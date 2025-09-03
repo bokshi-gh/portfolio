@@ -39,3 +39,5 @@ async function loadBlogList() {
 }
 
 loadBlogList();
+
+// TODO: list latest blog at the top (this can be done by filtering the blog according to the date specified in the blog file)
