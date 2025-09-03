@@ -1,5 +1,7 @@
 let blogList = document.getElementById("blog-list");
 
+blogList.innerHTML = "<p>fetching blogs...</p>"
+
 async function loadBlogList() {
   try {
     const repoOwner = "bokshi-gh";
@@ -30,7 +32,7 @@ async function loadBlogList() {
         `;
       }
     } else {
-      blogList.innerHTML = `<p>No blogs found</p>`;
+      blogList.innerHTML = `<p>Oops! No blogs found</p>`;
     }
   } catch (err) {
     console.error(err);
