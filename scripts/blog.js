@@ -14,7 +14,7 @@ async function loadBlogPost() {
     const response = await fetch(fileUrl);
 
     if(!response.ok){
-			document.getElementById("container").innerHTML = "Oops! This blog doesn’t seem to exist. It might have been deleted, migrated, or simply never existed";
+			document.getElementById("container").innerHTML = "Oops! This blog doesn’t seem to exist. It might have been deleted, migrated, or simply never existed.";
 			return;
     }
 
