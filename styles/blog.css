@@ -15,10 +15,6 @@ body{
     justify-content: center;
 }
 
-a{
-	font-weight: 600;
-}
-
 #container{
 	height: 100%;
 	width: fit-content;
@@ -28,7 +24,7 @@ a{
 	gap: 2.5rem;
 }
 
-#container .date{
+#container .blog-header .date{
 	margin-top: 0.5rem;
 }
 

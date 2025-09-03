@@ -4,7 +4,6 @@ async function loadBlog(){
 	try {
 	    const response = await fetch('../jsons/blogs.json');
 	    const blogs = await response.json();
-            console.log(blogs)
 
 	    if (blogs) {
 	      

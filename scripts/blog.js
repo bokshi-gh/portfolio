@@ -16,10 +16,13 @@ async function loadBlog() {
     if (blog) {
       
       container.innerHTML = `
-        <h1>${blog.title}</h1>
-        <p class="blog-date"><em>${blog.date}</em></p>
+        <div class="blog-header">
+		<h2>${blog.title}</h2>
+		<p class="blog-date"><em>${blog.date}</em></p>
+	</div>
         <main>${blog.content}</main>
       `;
+
     } else {
       container.innerHTML = `<p>Blog not found.</p>`;
     }
