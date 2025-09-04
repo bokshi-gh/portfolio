@@ -7,7 +7,7 @@ async function loadBlogPost() {
       return;
     }
 
-	// NOTE: If the filename contains '?' on GitHub, the `download_url` returned by GitHub
+	// NOTE: If the filename contains '?' on GitHub, the `download_url` of that file in the GitHub
     // will have '%3F' instead of '?'. So if you fetch GitHub using the raw '?' character
     // in the URL, it will fail. Always encode the filename using `encodeURIComponent` before fetching.
 	const encodedFileName = encodeURIComponent(fileName);
