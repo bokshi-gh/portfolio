@@ -30,7 +30,7 @@ async function loadBlogList() {
         
         html += `
           <p>
-            <a href="/blog.html?file=${file.download_url}">${filename}</a> | ${date}
+            <a href="/blog.html?file=${fileName}">${filename}</a> | ${date}
           </p>
         `;
       }
