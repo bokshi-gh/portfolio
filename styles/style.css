@@ -17,6 +17,10 @@ body{
 	background-color: black;
 }
 
+a{
+	color: #0077CC;
+}
+
 .container{
 	height: 100%;
 	width: fit-content;
