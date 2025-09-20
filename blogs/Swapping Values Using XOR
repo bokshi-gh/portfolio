@@ -1,0 +1,47 @@
+Sep 20, 2025
+
+<p>In this blog, I am going to demystify how swapping values using the bitwise XOR (<code>^</code>) operator actually works.</p>
+
+<h3>XOR Properties You Should Know</h3>
+<ul>
+  <li><code>a ^ a = 0</code></li>
+  <li><code>a ^ 0 = a</code></li>
+  <li><code>a ^ b ^ b = a</code></li>
+</ul>
+
+<h3>The XOR Swap Algorithm</h3>
+<pre><code>
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+</code></pre>
+
+<h3>Step-by-Step Breakdown</h3>
+
+<p><b>1. First line:</b></p>
+<pre><code>a = a ^ b</code></pre>
+<p>Now, <code>a</code> holds the combined information of both <code>a</code> and <code>b</code>.</p>
+
+<p><b>2. Second line:</b></p>
+<pre><code>b = a ^ b</code></pre>
+<p>Substituting the new <code>a</code> (which is <code>a ^ b</code>):</p>
+<pre><code>b = (a ^ b) ^ b</code></pre>
+<p>Since <code>b ^ b = 0</code>, this simplifies to:</p>
+<pre><code>b = a</code></pre>
+<p>Now <code>b</code> has the original value of <code>a</code>.</p>
+
+<p><b>3. Third line:</b></p>
+<pre><code>a = a ^ b</code></pre>
+<p>Substituting the new values:</p>
+<pre><code>a = (a ^ b) ^ a</code></pre>
+<p>Since <code>a ^ a = 0</code>, this simplifies to:</p>
+<pre><code>a = b</code></pre>
+<p>Now <code>a</code> has the original value of <code>b</code>.</p>
+
+<h3>Final Result</h3>
+<ul>
+  <li><code>a</code> now contains the original value of <code>b</code>.</li>
+  <li><code>b</code> now contains the original value of <code>a</code>.</li>
+</ul>
+
+<p>Thus, the values are swapped without using a temporary variable!</p>
