@@ -2,6 +2,8 @@ Sep 20, 2025
 
 <p>In this blog, I am going to demystify how swapping values using the bitwise XOR (<code>^</code>) operator actually works.</p>
 
+<br/>
+
 <h3>XOR Properties You Should Know</h3>
 <ul>
   <li><code>a ^ a = 0</code></li>
@@ -9,12 +11,16 @@ Sep 20, 2025
   <li><code>a ^ b ^ b = a</code></li>
 </ul>
 
+<br/>
+
 <h3>The XOR Swap Algorithm</h3>
 <pre><code>
 a = a ^ b;
 b = a ^ b;
 a = a ^ b;
 </code></pre>
+
+<br/>
 
 <h3>Step-by-Step Breakdown</h3>
 
@@ -37,6 +43,8 @@ a = a ^ b;
 <p>Since <code>a ^ a = 0</code>, this simplifies to:</p>
 <pre><code>a = b</code></pre>
 <p>Now <code>a</code> has the original value of <code>b</code>.</p>
+
+<br/>
 
 <h3>Final Result</h3>
 <ul>
