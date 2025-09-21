@@ -12,7 +12,7 @@ body{
 }
 
 a{
-	font-weight: bold;
+	font-weight: 500;
 }
 
 #container{
@@ -21,7 +21,7 @@ a{
 	padding: 1.5rem;
 	display: flex;
 	flex-direction: column;
-	gap: 2.5rem;
+	gap: 2rem;
 }
 
 #container .blog-header #blog-date{
