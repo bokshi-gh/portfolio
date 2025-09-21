@@ -23,7 +23,7 @@ a{
 .container{
 	height: 100%;
 	width: fit-content;
-	padding: 1.5rem;
+	padding: 1rem;
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
