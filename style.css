@@ -24,7 +24,7 @@ a{
 	gap: 1.5rem;
 }
 
-.container .socials{
+.container .about .socials{
 	display: flex;
 	gap: 0.8rem;
 	margin-top: 0.5rem;
