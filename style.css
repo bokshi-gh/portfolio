@@ -31,7 +31,7 @@ a{
 	margin-bottom: 0.5rem;
 }
 
-.container .project .project-list{
+.container .projects .project-list{
 	display: flex;
 	flex-direction: column;
 	margin-top: 0.5rem;
