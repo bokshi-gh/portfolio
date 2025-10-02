@@ -24,14 +24,14 @@ a{
 	gap: 1.5rem;
 }
 
-.container .about .socials{
+.container .about .social-links{
 	display: flex;
 	gap: 0.8rem;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
 
-.container .projects .project-list{
+.container .project .project-list{
 	display: flex;
 	flex-direction: column;
 	margin-top: 0.5rem;
