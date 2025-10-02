@@ -11,10 +11,6 @@ body{
     justify-content: center;
 }
 
-a{
-	font-weight: 500;
-}
-
 .container{
 	height: 100%;
 	width: fit-content;
