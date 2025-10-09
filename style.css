@@ -16,10 +16,6 @@ body{
     justify-content: center;
 }
 
-a{
-	color: green;
-}
-
 .container{
 	height: 100%;
 	width: fit-content;
