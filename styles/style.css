@@ -27,11 +27,51 @@ h2{
 	gap: 1.2rem;
 }
 
-.container .about .social-links{
+.container .hero{
+	position: relative;
+	width: 100%;
+}
+
+.container .hero video{
+	width: 100%;
+}
+
+.container .hero .name-social{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-shadow: 3px 3px black;
+	
+}
+
+.container .hero .name-social .name{
+	text-transform: uppercase;
+	color: white;
+}
+
+.container .hero .name-social .social-links{
 	display: flex;
 	gap: 1rem;
 	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
+}
+
+.container .hero .name-social .social-links a{
+	color: greenyellow;
+}
+
+.container .hero .age{
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-shadow: 3px 3px black;
+	font-weight: bolder;
+	font-size: large;
 }
 
 .container .project .project-list, .container .skill .skill-list{
@@ -39,6 +79,11 @@ h2{
 	flex-direction: column;
 	margin-top: 0.5rem;
 	gap: 0.2rem;
+}
+
+.container .blog-link{
+	border-top: 1px solid black;
+	padding-top: 0.5rem;
 }
 
 @media (min-width: 1000px){
