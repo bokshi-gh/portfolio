@@ -8,8 +8,6 @@
 
 body{
 	font-family: "Space Mono", monospace;
-	background-color: black;
-	color: white;
     min-height: 100dvh;
     width: 100%;
     display: flex;
