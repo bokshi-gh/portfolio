@@ -26,11 +26,11 @@ h2{
 	flex-direction: column;
 }
 
-.container .about .social-links{
-	margin-top: 0.2rem;
+.container .about .age{
+	margin-top: 0.3rem;
 }
 
-.container .about .age{
+.container .about .social-links{
 	margin-top: 0.2rem;
 }
 
