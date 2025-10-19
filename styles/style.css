@@ -27,6 +27,16 @@ h2{
 	gap: 1.2rem;
 }
 
+.container .about .social-links{
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+
+.container .about .age{
+	margin-top: 0.2rem;
+	margin-bottom: 0.5rem;
+}
+
 .container .project .project-list{
 	display: flex;
 	flex-direction: column;
