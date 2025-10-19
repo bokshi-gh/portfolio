@@ -29,12 +29,17 @@ h2{
 
 .container .about .social-links{
 	margin-top: 0.2rem;
-	margin-bottom: 0.2rem;
 }
 
 .container .about .age{
 	margin-top: 0.2rem;
-	margin-bottom: 0.5rem;
+}
+
+.container .about .description{
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.5rem;
+	gap: 0.2rem;
 }
 
 .container .project .project-list{
