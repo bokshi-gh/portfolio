@@ -1,55 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body{
-	font-family: "Space Mono", monospace;
-    min-height: 100dvh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+body {
+  font-family: "Space Mono", monospace;
+  min-height: 100dvh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 h2{
 	line-height: 1;
 }
 
-.container{
-	height: 100%;
-	width: fit-content;
-	padding: 1rem;
-	display: flex;
-	flex-direction: column;
+.container {
+  height: 100%;
+  width: fit-content;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.container .about .age{
-	margin-top: 0.3rem;
+.container .about .pulse-and-age {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
-.container .about .social-links{
-	margin-top: 0.2rem;
+.container .about .pulse-and-age .pulse {
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 50%;
+  background-color: #70ffaf;
+  justify-content: center;
+  align-items: center;
 }
 
-.container .about .description{
-	display: flex;
-	flex-direction: column;
-	margin-top: 0.5rem;
-	gap: 0.2rem;
+.container .about .pulse-and-age .age{
+	font-weight: bold;
 }
 
-.container .project .project-list{
-	display: flex;
-	flex-direction: column;
-	margin-top: 0.5rem;
-	gap: 0.2rem;
+.container .about .social-links {
+  display: flex;
+  gap: 0.8rem;
 }
 
-@media (min-width: 1000px){
-	.container{
-		max-width: 50%;
-	}
+.container .about .description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.8rem;
+  gap: 0.4rem;
+}
+
+.container .project .project-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.8rem;
+  gap: 0.4rem;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    max-width: 50%;
+  }
 }
