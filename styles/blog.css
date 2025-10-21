@@ -6,4 +6,11 @@ nav a {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
+
+}
+
+.container #content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
 }
