@@ -1,0 +1,9 @@
+nav a {
+    text-decoration: none;
+}
+
+.container .header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}

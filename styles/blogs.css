@@ -1,13 +1,13 @@
-nav a:nth-child(2){
-  color: #24CFA6;
-  background-color: black;
-  text-decoration-color: #24CFA6;
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
-  padding-bottom: 0.2rem;
+nav a:nth-child(2) {
+    color: #24CFA6;
+    background-color: black;
+    text-decoration-color: #24CFA6;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-bottom: 0.2rem;
 }
 
-.container a{
+.container a {
     text-decoration: none;
     color: white;
     display: flex;
@@ -15,15 +15,15 @@ nav a:nth-child(2){
     transition: 0.3s ease-in-out;
 }
 
-.container a:hover{
+.container a:hover {
     color: #24CFA6 !important;
 }
 
-.container a p{
+.container a p {
     font-weight: bolder;
 }
 
-.container a span{
+.container a span {
     font-size: 13px;
     color: #F6F6EF;
 }

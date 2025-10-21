@@ -20,7 +20,7 @@ const fetchBlog = async (data) => {
             const element = `
                 <a href="/pages/blog.html?title=${linkTitle}">
                     <p>${title}</p>
-                    <span>${date}</span>
+                    <span><i class="fa-solid fa-calendar-days"></i> ${date}</span>
                 </a>
             `
 
