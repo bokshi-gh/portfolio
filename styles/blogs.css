@@ -1,5 +1,7 @@
 nav a:nth-child(2){
+  color: #24CFA6;
   background-color: black;
+  text-decoration-color: #24CFA6;
   padding-left: 0.7rem;
   padding-right: 0.7rem;
   padding-bottom: 0.2rem;
@@ -8,14 +10,13 @@ nav a:nth-child(2){
 .container a{
     text-decoration: none;
     color: white;
-    font-weight: normal;
     display: flex;
     flex-direction: column;
     transition: 0.3s ease-in-out;
 }
 
 .container a:hover{
-    color: #FF6600;
+    color: #24CFA6 !important;
 }
 
 .container a p{
@@ -24,4 +25,5 @@ nav a:nth-child(2){
 
 .container a span{
     font-size: 13px;
+    color: #F6F6EF;
 }
