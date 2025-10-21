@@ -39,8 +39,7 @@ nav {
 nav a {
   color: white;
   text-transform: uppercase;
-  text-decoration-color: black;
-  background-color: #131313;
+  text-decoration-color: #131313;
   font-weight: bold;
   padding-left: 0.7rem;
   padding-right: 0.7rem;
