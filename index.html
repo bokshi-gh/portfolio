@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rajesh Thapa</title>
   <link rel="icon" type="image/png" href="assets/favicon.png" />
-  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="style.css" />
   <script src="scripts/script.js" defer></script>
   <script type="application/ld+json">
       {
@@ -21,12 +22,11 @@
 </head>
 
 <body>
-  <div class="nav">
-      <a href="/">Home</a>
-      <span>|</span>
-      <a href="/blog">Blog</a>
-  </div>
-  
+  <nav>
+    <a href="/">Home</a> |
+    <a href="./pages/blogs.html">Blogs</a>
+  </nav>
+
   <div class="container">
     <div class="about">
       <h2>Rajesh Thapa</h2>
@@ -54,12 +54,13 @@
 
     <div class="project">
       <h2>Projects</h2>
-      <div class="project-list">
+      <div class="project-list list">
         <p>
           <a href="https://github.com/bokshi-gh/shell">Shell</a><b>:</b> A minimal Unix-like shell written in C and C++.
         </p>
         <p>
-          <a href="https://github.com/bokshi-gh/text-editor">Text Editor</a><b>:</b> A minimal terminal based text editor inspired by <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a> written in C.
+          <a href="https://github.com/bokshi-gh/text-editor">Text Editor</a><b>:</b> A minimal terminal based text
+          editor inspired by <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a> written in C.
         </p>
         <p>
           <a href="https://github.com/bokshi-gh/http-server">HTTP Server</a><b>:</b> A backend HTTP library for C.
