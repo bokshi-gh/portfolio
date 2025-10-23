@@ -1,4 +1,4 @@
-Title: Swapping two variables using XOR\r\n
-Date: October 23, 2025\r\n
-\r\n
+Title: Swapping two variables using XOR
+Date: October 23, 2025
+
 We all have used XOR method to swap two variables without using extra(third) variable. But do you really know how it is working internally
