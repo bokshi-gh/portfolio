@@ -6,6 +6,20 @@ nav a:nth-child(1) {
   padding-bottom: 0.2rem;
 }
 
+.container .about .social-links {
+  margin-top: 0.4rem;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.container .about .social-links a i{
+  font-size: 1.2rem;
+}
+
+.container .about .social-links a{
+  color: white;
+}
+
 .container .about .pulse-and-age {
   display: flex;
   align-items: center;
@@ -23,12 +37,11 @@ nav a:nth-child(1) {
   font-weight: bold;
 }
 
-.container .about .social-links {
-  display: flex;
-  gap: 0.8rem;
+.container .about .social-links a:hover{
+  color: #24CFA6;
+  transition: 0.3s ease-in-out;
 }
 
-.container .about .social-links a,
 .container .project .project-list a {
   font-weight: bold;
   color: #24CFA6;
