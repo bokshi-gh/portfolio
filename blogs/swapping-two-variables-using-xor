@@ -1,39 +1,41 @@
 Title: Swapping two variables using XOR
 Date: October 23, 2025
 
-<p>We all have used XOR method to swap two variables without using extra(third) variable. But do you really know how does it working internally?</p>
-<p>In this blog, I am demystifying it's internal.</p>
-<p>Before jumping into it directly we must be familiar with the XOR properties.</p>
-<code>
-    <pre>
-    X ^ X => 0
-    0 ^ X => X
-    </pre>
-</code>
-<p>Keeping above rules in mind let's swap variables</p>
-<code>
-    <pre>
-    X = a
-    Y = b
+<p>We all have used the XOR method to swap two variables without using an extra (third) variable. But do you really know how it works internally?</p>
 
-    X = X ^ Y
-        Here X becomes, X = a ^ b ∵ substituting value of X and Y
+<p>In this blog, I am demystifying its internals.</p>
 
-    Y = X ^ Y
-        Here Y becomes, Y = (a ^ b) ^ b ∵ substituting value of X
-        Y = a ^ (b ^ b) ∵ rearranging
-        Y = a ^ 0 ∵ from the 1st rule listed above
-        Y = a ∵ from the 2nd rule listed above
+<p>Before jumping into it directly, we must be familiar with the XOR properties:</p>
 
-        ∴ Y = a
+<pre><code>
+<b>X ^ X</b> => <b>0</b>
+<b>0 ^ X</b> => <b>X</b>
+</code></pre>
 
-    X = X ^ Y
-        Here X becomes, X = (a ^ b) ^ (a) ∵ substituting value of X and Y
-        X = (a ^ a) ^ b ∵ rearranging
-        Y = 0 ^ b ∵ from the 1st rule listed above
-        Y = b ∵ from the 2nd rule listed above
+<p>Keeping the above rules in mind, let's swap the variables:</p>
 
-     ∴ X = b
-    </pre>
-</code>
+<pre><code>
+<b>X = a</b>
+<b>Y = b</b>
 
+<b>X = X ^ Y</b>
+    Here X becomes, <i>X = a ^ b</i> ∵ substituting values of X and Y
+
+<b>Y = X ^ Y</b>
+    Here Y becomes, <i>Y = (a ^ b) ^ b</i> ∵ substituting value of X  
+    <i>Y = a ^ (b ^ b)</i> ∵ rearranging  
+    <i>Y = a ^ 0</i> ∵ from the 1st rule listed above  
+    <i>Y = a</i> ∵ from the 2nd rule listed above  
+
+    ∴ <b>Y = a</b>
+
+<b>X = X ^ Y</b>
+    Here X becomes, <i>X = (a ^ b) ^ a</i> ∵ substituting value of X and Y  
+    <i>X = (a ^ a) ^ b</i> ∵ rearranging  
+    <i>X = 0 ^ b</i> ∵ from the 1st rule listed above  
+    <i>X = b</i> ∵ from the 2nd rule listed above  
+
+    ∴ <b>X = b</b>
+</code></pre>
+
+<p>We have just succesfully swapped two variables using XOR, Now <code>X = a</code> and <code>Y = b</code></p>
