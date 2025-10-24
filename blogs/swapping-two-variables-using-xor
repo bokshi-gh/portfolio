@@ -17,19 +17,21 @@ Date: October 23, 2025
     Y = b
 
     X = X ^ Y
-     Here X becomes, X = a ^ b
-    Y = X ^ Y
-     Here Y becomes, Y = (a ^ b) ^ b ∵ substituting value of X
-     Y = a ^ (b ^ b) ∵ rearranging
-     Y = a ^ 0 ∵ from the 1st rule listed above
-     Y = a ∵ from the 2nd rule listed above
+        Here X becomes, X = a ^ b ∵ substituting value of X and Y
 
-     ∴ Y = a
+    Y = X ^ Y
+        Here Y becomes, Y = (a ^ b) ^ b ∵ substituting value of X
+        Y = a ^ (b ^ b) ∵ rearranging
+        Y = a ^ 0 ∵ from the 1st rule listed above
+        Y = a ∵ from the 2nd rule listed above
+
+        ∴ Y = a
+
     X = X ^ Y
-     Here X becomes, X = (a ^ b) ^ (a) ∵ substituting value of X and Y
-     X = (a ^ a) ^ b ∵ rearranging
-     Y = 0 ^ b ∵ from the 1st rule listed above
-     Y = b ∵ from the 2nd rule listed above
+        Here X becomes, X = (a ^ b) ^ (a) ∵ substituting value of X and Y
+        X = (a ^ a) ^ b ∵ rearranging
+        Y = 0 ^ b ∵ from the 1st rule listed above
+        Y = b ∵ from the 2nd rule listed above
 
      ∴ X = b
     </pre>
