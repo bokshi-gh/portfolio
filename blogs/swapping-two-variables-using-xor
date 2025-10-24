@@ -1,14 +1,14 @@
 Title: Swapping two variables using XOR
 Date: October 23, 2025
 
-<p>We all have used the XOR method to swap two variables without using an extra(third) variable. But do you really know how it works internally?</p>
+<p>We all have used the XOR method to swap two variables without using an extra(third) variable somewhere in our CS career. But some of us don't even know how it works.</p>
 
 <p>In this blog, I am demystifying its internals.</p>
 
-<p>Before jumping into it directly, we must be familiar with the XOR properties.</p>
+<p>Before jumping into it directly, We must be familiar with the XOR properties.</p>
 
 <pre><code>
-<p>Properties:</p>
+Properties:
 <b>1. (X ^ Y) ^ Z = X ^ (Y ^ Z) => XOR is <code><b>Associative</b></code></b>
 <b>2. X ^ X</b> = <b>0</b>
 <b>3. 0 ^ X</b> = <b>X</b>
@@ -17,7 +17,7 @@ Date: October 23, 2025
 <p>Keeping the above rules in mind, let's swap the variables</p>
 
 <pre><code>
-<p>Let us suppose,</p>
+Let us suppose,
 <b>X = a</b>
 <b>Y = b</b>
 
@@ -32,14 +32,14 @@ Date: October 23, 2025
     ∴ <b>Y = a</b>
 
 <b>X = X ^ Y</b>
-    Here X becomes, <i>X = (a ^ b) ^ a</i> ∵ Substituting value of X and Y  
+    <i>X = (a ^ b) ^ a</i> ∵ Substituting value of X and Y  
     <i>X = (a ^ a) ^ b</i>, ∵ From the 1st propetry listed above  
     <i>X = 0 ^ b</i>, ∵ From the 2nd propetry listed above  
     <i>X = b</i>, ∵ From the 3rd propetry listed above  
     ∴ <b>X = b</b>
 
-<p>Finally,</p>
-<p><b>X = b and Y = a</b></p>
+Finally
+<b>X = b and Y = a</b>
 </code></pre>
 
-<p>We have just succesfully swapped two variables using XOR.</p>
+<p>We have just succesfully swapped two variables using XOR without introducing any third variable.</p>
