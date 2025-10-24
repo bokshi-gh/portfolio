@@ -1,7 +1,7 @@
 Title: Swapping two variables using XOR
 Date: October 23, 2025
 
-<p>We all have used the XOR method to swap two variables without introducing any extra(third) variable somewhere in our CS career.</p>
+<p>We all have used the XOR method to swap two variables without introducing any extra(third) variable somewhere in our Math or CS career.</p>
 
 <p>But some of us don't even know how it works.</p>
 
@@ -10,10 +10,10 @@ Date: October 23, 2025
 <p>Before jumping into it directly, We must be familiar with the XOR properties.</p>
 
 <pre style="background-color: #131313; padding: 0.8rem;"><code>Properties:
-<b>1. X ^ Y = Y ^ X => XOR is Commutative</b>
-<b>2. (X ^ Y) ^ Z = X ^ (Y ^ Z) => XOR is Associative</b>
-<b>3. X ^ X</b> = <b>0</b>
-<b>4. 0 ^ X</b> = <b>X</b>
+<b>1. X ⊕ Y = Y ⊕ X => XOR is <i>Commutative</i></b>
+<b>2. (X ⊕ Y) ⊕ Z = X ⊕ (Y ⊕ Z) => XOR is <i>Associative</i></b>
+<b>3. X ⊕ X</b> = <b>0</b>
+<b>4. X ⊕ 0</b> = <b>X</b>
 </code></pre>
 
 <p>Keeping the above rules in mind, let's get into it.</p>
@@ -23,20 +23,20 @@ Date: October 23, 2025
 <b>Y = b</b>
 
 Now,
-<b>X = X ^ Y</b>
-    <i>X = a ^ b</i>, ∵ Substituting values of X and Y
+<b>X = X ⊕ Y</b>
+    <i>X = a ⊕ b</i>, ∵ Substituting values of X and Y
 
-<b>Y = X ^ Y</b>
-    <i>Y = (a ^ b) ^ b</i>, ∵ Substituting value of X  and Y
-    <i>Y = a ^ (b ^ b)</i>, ∵ From the 2nd propetry listed above  
-    <i>Y = a ^ 0</i>, ∵ From the 3rd propetry listed above  
+<b>Y = X ⊕ Y</b>
+    <i>Y = (a ⊕ b) ⊕ b</i>, ∵ Substituting value of X  and Y
+    <i>Y = a ⊕ (b ⊕ b)</i>, ∵ From the 2nd propetry listed above  
+    <i>Y = a ⊕ 0</i>, ∵ From the 3rd propetry listed above  
     <i>Y = a</i>, ∵ From the 4th propetry listed above  
     ∴ <b>Y = a</b>
 
-<b>X = X ^ Y</b>
-    <i>X = (a ^ b) ^ a</i> ∵ Substituting value of X and Y  
-    <i>X = (a ^ a) ^ b</i>, ∵ From the 1st propetry listed above  
-    <i>X = 0 ^ b</i>, ∵ From the 3rd propetry listed above  
+<b>X = X ⊕ Y</b>
+    <i>X = (a ⊕ b) ⊕ a</i> ∵ Substituting value of X and Y  
+    <i>X = (a ⊕ a) ⊕ b</i>, ∵ From the 1st propetry listed above  
+    <i>X = 0 ⊕ b</i>, ∵ From the 3rd propetry listed above  
     <i>X = b</i>, ∵ From the 4th propetry listed above  
     ∴ <b>X = b</b>
 
