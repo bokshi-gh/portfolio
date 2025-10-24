@@ -5,9 +5,10 @@ Date: October 23, 2025
 
 <p>In this blog, I am demystifying its internals.</p>
 
-<p>Before jumping into it directly, we must be familiar with the XOR properties:</p>
+<p>Before jumping into it directly, we must be familiar with the XOR properties.</p>
 
 <pre><code>
+<p>Properties:</p>
 <b>X ^ X</b> => <b>0</b>
 <b>0 ^ X</b> => <b>X</b>
 </code></pre>
@@ -19,21 +20,21 @@ Date: October 23, 2025
 <b>Y = b</b>
 
 <b>X = X ^ Y</b>
-    Here X becomes, <i>X = a ^ b</i> ∵ substituting values of X and Y
+    Here X becomes, <i>X = a ^ b</i> ∵ Substituting values of X and Y
 
 <b>Y = X ^ Y</b>
-    Here Y becomes, <i>Y = (a ^ b) ^ b</i> ∵ substituting value of X  
-    <i>Y = a ^ (b ^ b)</i> ∵ rearranging  
-    <i>Y = a ^ 0</i> ∵ from the 1st rule listed above  
-    <i>Y = a</i> ∵ from the 2nd rule listed above  
+    Here Y becomes, <i>Y = (a ^ b) ^ b</i> ∵ Substituting value of X  
+    <i>Y = a ^ (b ^ b)</i> ∵ Rearranging  
+    <i>Y = a ^ 0</i> ∵ From the 1st propetry listed above  
+    <i>Y = a</i> ∵ From the 2nd propetry listed above  
 
     ∴ <b>Y = a</b>
 
 <b>X = X ^ Y</b>
-    Here X becomes, <i>X = (a ^ b) ^ a</i> ∵ substituting value of X and Y  
-    <i>X = (a ^ a) ^ b</i> ∵ rearranging  
-    <i>X = 0 ^ b</i> ∵ from the 1st rule listed above  
-    <i>X = b</i> ∵ from the 2nd rule listed above  
+    Here X becomes, <i>X = (a ^ b) ^ a</i> ∵ Substituting value of X and Y  
+    <i>X = (a ^ a) ^ b</i> ∵ Rearranging  
+    <i>X = 0 ^ b</i> ∵ From the 1st propetry listed above  
+    <i>X = b</i> ∵ From the 2nd propetry listed above  
 
     ∴ <b>X = b</b>
 </code></pre>
