@@ -1,15 +1,15 @@
 Title: Swapping two variables using XOR
 Date: October 23, 2025
 
-<p>We all have used the XOR method to swap two variables without using an extra(third) variable somewhere in our CS career</p>
+<p>We all have used the XOR method to swap two variables without introducing any extra(third) variable somewhere in our CS career.</p>
 
 <p>But some of us don't even know how it works.</p>
 
-<p>In this blog, I am demystifying its internals.</p>
+<p>Not to worry, I am going to demystify it's internal with mathmatical approach.</p>
 
 <p>Before jumping into it directly, We must be familiar with the XOR properties.</p>
 
-<pre><code>Properties:
+<pre style="background-color: #131313; padding: 0.8rem;"><code>Properties:
 <b>1. (X ^ Y) ^ Z = X ^ (Y ^ Z) => XOR is <code><b>Associative</b></code></b>
 <b>2. X ^ X</b> = <b>0</b>
 <b>3. 0 ^ X</b> = <b>X</b>
@@ -17,7 +17,7 @@ Date: October 23, 2025
 
 <p>Keeping the above rules in mind, let's swap the variables</p>
 
-<pre><code>Let us suppose,
+<pre style="background-color: #131313; padding: 0.8rem;"><code>Let us suppose,
 <b>X = a</b>
 <b>Y = b</b>
 
