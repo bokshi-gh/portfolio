@@ -18,3 +18,9 @@ nav a {
     flex-direction: column;
     gap: 0.8rem;
 }
+
+pre{
+    justify-content: center;
+    padding: 0rem;
+    background-color: rgb(34, 34, 34);
+}
