@@ -1,4 +1,23 @@
 Title: Swapping two variables using XOR
 Date: October 23, 2025
 
-<p>We all have used XOR method to swap two variables without using extra(third) variable. But do you really know how it is working internally</p>
+<p>We all have used XOR method to swap two variables without using extra(third) variable. But do you really know how it is working internally?</p>
+<p>In this blog, I am dimistfying it's internal.</p>
+<p>Before jumping into it directly we must be familiar with the XOR properties.</p>
+<code>
+    <pre>
+        X ^ X => 0
+        0 ^ X => X
+    </pre>
+</code>
+<p>Keeping above rules in mind let's swap variables</p>
+<code>
+    <pre>
+        X = a
+        Y = b
+
+        X = X ^ Y
+        Y = X ^ Y
+        X = X ^ Y  
+    </pre>
+</code>
