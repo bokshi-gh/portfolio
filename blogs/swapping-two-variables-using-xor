@@ -10,7 +10,7 @@ Date: October 23, 2025
 <p>Before jumping into it directly, We must be familiar with the XOR properties.</p>
 
 <pre style="background-color: #131313; padding: 0.8rem;"><code>Properties:
-<b>1. X ^ Y = Y ^ X => XOR is commutative</b>
+<b>1. X ^ Y = Y ^ X => XOR is Commutative</b>
 <b>2. (X ^ Y) ^ Z = X ^ (Y ^ Z) => XOR is Associative</b>
 <b>3. X ^ X</b> = <b>0</b>
 <b>4. 0 ^ X</b> = <b>X</b>
