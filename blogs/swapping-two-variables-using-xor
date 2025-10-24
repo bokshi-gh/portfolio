@@ -1,7 +1,9 @@
 Title: Swapping two variables using XOR
 Date: October 23, 2025
 
-<p>We all have used the XOR method to swap two variables without using an extra(third) variable somewhere in our CS career. But some of us don't even know how it works.</p>
+<p>We all have used the XOR method to swap two variables without using an extra(third) variable somewhere in our CS career</p>
+
+<p>But some of us don't even know how it works.</p>
 
 <p>In this blog, I am demystifying its internals.</p>
 
@@ -38,7 +40,7 @@ Let us suppose,
     <i>X = b</i>, ∵ From the 3rd propetry listed above  
     ∴ <b>X = b</b>
 
-Finally
+Finally,
 <b>X = b and Y = a</b>
 </code></pre>
 
