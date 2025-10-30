@@ -1,28 +1,15 @@
-nav a:nth-child(2) {
-    color: #24CFA6;
-    text-decoration-color: #24CFA6;
-    padding-left: 0.7rem;
-    padding-right: 0.7rem;
-    padding-bottom: 0.2rem;
-}
-
-.container a {
+main .blog .blog-list a {
+    color: black;
     text-decoration: none;
-    color: white;
     display: flex;
     flex-direction: column;
-    transition: 0.3s ease-in-out;
 }
 
-.container a:hover {
-    color: #24CFA6 !important;
+main .blog .blog-list a p {
+    font-weight: 500;
 }
 
-.container a p {
-    font-weight: bolder;
-}
-
-.container a span {
+main a span {
     font-size: 13px;
-    color: #F6F6EF;
+    color: #696969;
 }

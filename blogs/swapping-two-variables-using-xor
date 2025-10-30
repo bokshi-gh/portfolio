@@ -9,7 +9,7 @@ Date: October 23, 2025
 
 <p>Before jumping into it directly, We must be familiar with the XOR properties.</p>
 
-<pre style="background-color: #131313; padding: 0.8rem;"><code>Properties:
+<pre style="background-color: #e0e0e0; padding: 0.8rem;"><code>Properties:
 <b>1. X ⊕ Y = Y ⊕ X => XOR is <i>Commutative</i></b>
 <b>2. (X ⊕ Y) ⊕ Z = X ⊕ (Y ⊕ Z) => XOR is <i>Associative</i></b>
 <b>3. X ⊕ X</b> = <b>0</b>
@@ -18,7 +18,7 @@ Date: October 23, 2025
 
 <p>Keeping the above rules in mind, let's get into it.</p>
 
-<pre style="background-color: #131313; padding: 0.8rem;"><code>Let us suppose,
+<pre style="background-color: #e0e0e0; padding: 0.8rem;"><code>Let us suppose,
 <b>X = a</b>
 <b>Y = b</b>
 

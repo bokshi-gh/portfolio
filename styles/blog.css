@@ -1,20 +1,11 @@
-nav a {
-    padding-bottom: 0px;
-}
-
-.container{
-    gap: 1.5rem;
-}
-
-.container .header {
+main .header {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-
+    gap: 0.4rem;
 }
 
-.container #content {
+main #content {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.6rem;
 }
