@@ -27,7 +27,3 @@ main .about .description {
   margin-top: 0.6rem;
   gap: 0.3rem;
 }
-
-main .list a {
-  font-weight: bold;
-}
