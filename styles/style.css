@@ -6,6 +6,11 @@ main .about {
 
 main .about .bio {
   font-weight: 500;
+  display: flex;
+}
+
+main .about .bio .age {
+  width: 6.9rem;
 }
 
 main .about .social-links {
