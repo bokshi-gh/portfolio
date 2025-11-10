@@ -1,66 +1,9 @@
-main .profile {
-  width: 100%;
-  height: 7rem;
-  position: relative;
-  border-radius: 0.5rem;
-  margin-bottom: 1.8rem;
-}
-
-main .profile img:nth-child(1) {
-  height: 100%;
-  width: 100%;
-  border-radius: 0.5rem;
-  object-fit: cover;
-  object-position: center bottom;
-  transform: scaleX(-1);
-}
-
-main .profile img:nth-child(2) {
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: -2rem;
-  left: 1rem;
+.container header .links .page-links a:nth-child(1) {
+  background-color: #ff6600;
 }
 
 main .about {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
-}
-
-main .about .bio {
-  font-weight: 500;
-  display: flex;
-}
-
-main .about .bio .age {
-  width: 6.9rem;
-}
-
-main .about .social-links {
-  display: flex;
-  gap: 0.6rem;
-}
-
-main .about .social-links a i {
-  font-size: 1.3rem;
-}
-
-main .about .social-links a {
-  color: black;
-}
-
-main .about .description {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0.2rem;
-  gap: 0.6rem;
-}
-
-@media (max-width: 400px) {
-  main .profile img:nth-child(1) {
-    object-position: center bottom;
-  }
+  gap: 0.8rem;
 }

@@ -18,10 +18,10 @@ const fetchBlog = async (data) => {
 
             const linkTitle = blog.name;
             const element = `
-                <a href="/pages/blog.html?title=${linkTitle}">
-                    <p>${title}</p>
+                <div class="blog">
+                    <a href="/pages/blog.html?title=${linkTitle}">${title}</a>
                     <span><i class="fa-solid fa-calendar-days"></i> ${date}</span>
-                </a>
+                </div>
             `
 
             blogList.innerHTML += element;

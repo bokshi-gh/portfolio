@@ -1,11 +1,21 @@
-main .header {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
+.container .back a {
+    color: black;
+    font-weight: bold;
+    transition: 0.6s ease-in-out;
 }
 
-main #content {
+.container .back a:hover {
+    background-color: #ff6600;
+}
+
+.container .header {
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 0.5rem;
+}
+
+.container #content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
 }

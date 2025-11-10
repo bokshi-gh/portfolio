@@ -1,0 +1,12 @@
+.container header .links .page-links a:nth-child(3) {
+    background-color: #ff6600;
+}
+
+.container main .project-list a {
+    color: black;
+    transition: 0.6s ease-in-out;
+}
+
+.container main .project-list a:hover {
+    background-color: #ff6600;
+}
