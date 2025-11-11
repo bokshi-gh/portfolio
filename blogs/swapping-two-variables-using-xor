@@ -24,24 +24,25 @@ Date: October 23, 2025
 
 Now,
 <b>X = X ⊕ Y</b>
-    <i>X = a ⊕ b</i>, ∵ Substituting values of X and Y
+    X = a ⊕ b, ∵ Substituting values of X and Y
 
 <b>Y = X ⊕ Y</b>
-    <i>Y = (a ⊕ b) ⊕ b</i>, ∵ Substituting value of X  and Y
-    <i>Y = a ⊕ (b ⊕ b)</i>, ∵ From the 2nd propetry listed above  
-    <i>Y = a ⊕ 0</i>, ∵ From the 3rd propetry listed above  
-    <i>Y = a</i>, ∵ From the 4th propetry listed above  
+    Y = (a ⊕ b) ⊕ b, ∵ Substituting value of X  and Y
+    Y = a ⊕ (b ⊕ b), ∵ From the 2nd propetry listed above  
+    Y = a ⊕ 0, ∵ From the 3rd propetry listed above  
+    Y = a, ∵ From the 4th propetry listed above  
     ∴ <b>Y = a</b>
 
 <b>X = X ⊕ Y</b>
-    <i>X = (a ⊕ b) ⊕ a</i> ∵ Substituting value of X and Y  
-    <i>X = (a ⊕ a) ⊕ b</i>, ∵ From the 1st propetry listed above  
-    <i>X = 0 ⊕ b</i>, ∵ From the 3rd propetry listed above  
-    <i>X = b</i>, ∵ From the 4th propetry listed above  
+    X = (a ⊕ b) ⊕ a ∵ Substituting value of X and Y  
+    X = (a ⊕ a) ⊕ b, ∵ From the 1st propetry listed above  
+    X = 0 ⊕ b, ∵ From the 3rd propetry listed above  
+    X = b, ∵ From the 4th propetry listed above  
     ∴ <b>X = b</b>
 
 Finally,
 <b>X = b and Y = a</b>
 </code></pre>
+
 
 <p>We have just succesfully swapped two variables using XOR without introducing any third variable.</p>
