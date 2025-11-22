@@ -1,7 +1,7 @@
-const main = document.getElementsByTagName("main")[0];
+const blogList = document.getElementsByClassName("blog-list")[0];
 
 const fetchBlog = async (data) => {
-    main.innerText = "";
+    blogList.innerText = "";
     for (blog of data) {
         try {
             const response = await fetch(blog.download_url);
@@ -24,9 +24,9 @@ const fetchBlog = async (data) => {
                 </div>
             `
 
-            main.insertAdjacentHTML("afterend", element);
+            blogList.innerHTML += element;
         } catch (error) {
-            main.innerText = `Failed to fetch Blogs\r\n${error}`;
+            blogList.innerText = `Failed to fetch Blogs\r\n${error}`;
             console.error('Failed to fetch Blog:', error);
         }
     }
@@ -36,7 +36,7 @@ const fetchBlogs = async () => {
     const url = "https://api.github.com/repos/bokshi-gh/portfolio/contents/blogs"
 
     try {
-        main.innerText = "fetching blogs...";
+        blogList.innerText = "fetching blogs...";
         const response = await fetch(url);
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -45,8 +45,8 @@ const fetchBlogs = async () => {
         const data = await response.json();
         fetchBlog(data);
     } catch (error) {
-        main.innerText = "";
-        main.innerText = `Failed to fetch Blogs\r\n${error}`;
+        blogList.innerText = "";
+        blogList.innerText = `Failed to fetch Blogs\r\n${error}`;
         console.error('Failed to fetch Blogs:', error);
     }
 }

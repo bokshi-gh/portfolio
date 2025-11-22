@@ -1,8 +1,3 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
 
 .container header {
   display: flex;
@@ -12,11 +7,5 @@
 
 .container header .socials {
   display: flex;
-  gap: 0.5rem;
-}
-
-.container .about, .project {
-  display: flex;
-  flex-direction: column;
   gap: 0.5rem;
 }
