@@ -14,7 +14,7 @@ const fetchBlog = async (linkTitle) => {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        const raw = await response.text();
+        let raw = await response.text();
         raw = raw.replace(/\r\n/g, "\n");
 
         const indexOfFirstNewline = raw.indexOf("\n");
