@@ -1,16 +1,15 @@
 .container .back a {
-    color: black;
     font-weight: bold;
 }
 
 .container .header {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.25rem;
 }
 
 .container #content {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.8rem;
 }

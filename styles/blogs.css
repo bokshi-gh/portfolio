@@ -1,4 +1,5 @@
-.container .blogs .blog-list {
+.container .blog-list .blog {
     display: flex;
     flex-direction: column;
+    gap: 0.25rem;
 }

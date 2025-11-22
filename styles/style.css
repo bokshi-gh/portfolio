@@ -4,7 +4,16 @@
   gap: 0.5rem;
 }
 
+.container header .bio {
+  display: flex;
+  gap: 0.5rem;
+}
+
 .container header .socials {
   display: flex;
   gap: 0.5rem;
+}
+
+.container header .socials a i {
+  font-size: 22px;
 }
