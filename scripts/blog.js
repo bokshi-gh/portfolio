@@ -29,7 +29,7 @@ const fetchBlog = async (linkTitle) => {
         blogDate.innerText = "";
 
         blogTitle.innerText = title;
-        blogDate.innerHTML = `<i class="fa-solid fa-calendar"></i>` + date;
+        blogDate.innerHTML = `<i class="fa-solid fa-calendar"></i>` + " " + date;
         blogContent.innerHTML = content;
     } catch (error) {
         blogDate.innerText = "";
