@@ -1,7 +1,3 @@
-.container .back a {
-    font-weight: bold;
-}
-
 .container .header {
     display: flex;
     flex-direction: column;

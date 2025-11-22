@@ -27,6 +27,10 @@ body {
   gap: 0.5rem;
 }
 
+.container .back a {
+    font-weight: bold;
+}
+
 @media (min-width: 1000px) {
   .container {
     width: 50%;
