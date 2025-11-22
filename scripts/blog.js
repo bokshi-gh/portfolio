@@ -20,7 +20,7 @@ const fetchBlog = async (linkTitle) => {
         const indexOfFirstNewline = raw.indexOf("\n");
         const indexOfSecondNewline = raw.indexOf("\n\n");
 
-        const title = raw.slice(7, indexOfFirstCariageReturn);
+        const title = raw.slice(7, indexOfFirstNewline);
         document.title = title + " | " + "Rajesh Thapa";
 
         const date = raw.slice(indexOfFirstNewline + 7, indexOfSecondNewline);
