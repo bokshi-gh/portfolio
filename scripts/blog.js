@@ -24,7 +24,7 @@ const fetchBlog = async (linkTitle) => {
         document.title = title + " | " + "Rajesh Thapa";
 
         const date = raw.slice(indexOfFirstNewline + 7, indexOfSecondNewline);
-        const content = raw.slice(indexOfSecondNewline + 4, raw.length);
+        const content = raw.slice(indexOfSecondNewline + 2, raw.length);
 
         blogDate.innerText = "";
 
