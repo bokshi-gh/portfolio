@@ -1,11 +1,6 @@
 .container .back a {
     color: black;
     font-weight: bold;
-    transition: 0.6s ease-in-out;
-}
-
-.container .back a:hover {
-    background-color: #ff6600;
 }
 
 .container .header {
@@ -17,5 +12,5 @@
 .container #content {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.5rem;
 }

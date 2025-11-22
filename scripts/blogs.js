@@ -12,7 +12,7 @@ const fetchBlog = async (data) => {
             const raw = await response.text();
             const indexOfFirstCariageReturn = raw.indexOf("\r\n");
             const indexOfFirstDoubleCariageReturn = raw.indexOf("\r\n\r\n");
-            console.log(indexOfFirstCariageReturn, indexOfFirstDoubleCariageReturn)
+            console.log(indexOfFirstCariageReturn, indexOfFirstDoubleCariageReturn);
 
             const title = raw.slice(7, indexOfFirstCariageReturn);
             const date = raw.slice(indexOfFirstCariageReturn + 7, indexOfFirstDoubleCariageReturn);
