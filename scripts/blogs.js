@@ -31,7 +31,7 @@ const fetchBlog = async (data) => {
             blogList.innerHTML += element;
         } catch (error) {
             blogList.innerText = `Failed to fetch Blogs\r\n${error}`;
-            
+
             console.error('Failed to fetch Blog:', error);
         }
     }

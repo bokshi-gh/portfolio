@@ -34,7 +34,7 @@ const fetchBlog = async (linkTitle) => {
     } catch (error) {
         blogDate.innerText = "";
         blogDate.innerText = `Failed to fetch Blog contents\r\nEither the blog you are trying to find was deleted/migrated or simply didn't existed\r\n${error}`;
-        
+
         console.error('Failed to fetch Blog:', error);
     }
 
