@@ -1,9 +1,22 @@
-.container header .links .page-links a:nth-child(1) {
-  background-color: #ff6600;
-}
-
-main .about {
+.container {
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1.5rem;
+}
+
+.container header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.container header .socials {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.container .about, .project {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }

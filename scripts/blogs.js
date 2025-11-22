@@ -1,7 +1,7 @@
-const blogList = document.getElementById("blog-list");
+const main = document.getElementsByTagName("main")[0];
 
 const fetchBlog = async (data) => {
-    blogList.innerText = "";
+    main.innerText = "";
     for (blog of data) {
         try {
             const response = await fetch(blog.download_url);
@@ -19,14 +19,14 @@ const fetchBlog = async (data) => {
             const linkTitle = blog.name;
             const element = `
                 <div class="blog">
-                    <a href="/pages/blog.html?title=${linkTitle}">${title}</a>
+                    <a href="blog.html?title=${linkTitle}">${title}</a>
                     <span><i class="fa-solid fa-calendar-days"></i> ${date}</span>
                 </div>
             `
 
-            blogList.innerHTML += element;
+            main.insertAdjacentHTML("afterend", element);
         } catch (error) {
-            blogList.innerText = `Failed to fetch Blogs\r\n${error}`;
+            main.innerText = `Failed to fetch Blogs\r\n${error}`;
             console.error('Failed to fetch Blog:', error);
         }
     }
@@ -36,7 +36,7 @@ const fetchBlogs = async () => {
     const url = "https://api.github.com/repos/bokshi-gh/portfolio/contents/blogs"
 
     try {
-        blogList.innerText = "fetching blogs...";
+        main.innerText = "fetching blogs...";
         const response = await fetch(url);
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -45,8 +45,8 @@ const fetchBlogs = async () => {
         const data = await response.json();
         fetchBlog(data);
     } catch (error) {
-        blogList.innerText = "";
-        blogList.innerText = `Failed to fetch Blogs\r\n${error}`;
+        main.innerText = "";
+        main.innerText = `Failed to fetch Blogs\r\n${error}`;
         console.error('Failed to fetch Blogs:', error);
     }
 }
