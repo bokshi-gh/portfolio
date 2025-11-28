@@ -22,8 +22,10 @@ Date: November 28, 2025
 	</ul>
 </details>
 
-<h3>Comments and Documentation</h3>
-<p>Explain why, not what.</p>
+<details>
+	<summary><h3>Comments and Documentation</h3></summary>
+	<p>Explain why, not what.</p>
+</details>
 
 <details>
 	<summary><h3>Programming Practices</h3></summary>
