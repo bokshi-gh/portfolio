@@ -8,17 +8,19 @@ Date: November 28, 2025
 	<b>Indentation:</b> <span>Use tab or 2–4 spaces consistently per level; avoid mixing tabs and spaces.</span>
 </details>
 
-<h3>Naming</h3>
-<ul>
-	<li>lowercase</li>
-	<li>SCREAMINGCASE</li>
-	<li>camelCase</li>
-	<li>PascalCase</li>
-	<li>snake_case</li>
-	<li>kebab-case</li>
-	<li><a src"https://en.wikipedia.org/wiki/Hungarian_notation" target="_blank">Hungarian Notation</a></li>
-	<li>Mixed</li>
-</ul>
+<details>
+	<summary><h3>Naming</h3></summary>
+	<ul>
+		<li>lowercase</li>
+		<li>SCREAMINGCASE</li>
+		<li>camelCase</li>
+		<li>PascalCase</li>
+		<li>snake_case</li>
+		<li>kebab-case</li>
+		<li><a src"https://en.wikipedia.org/wiki/Hungarian_notation" target="_blank">Hungarian Notation</a></li>
+		<li>Mixed</li>
+	</ul>
+</details>
 
 <h3>Comments and Documentation</h3>
 <p>Explain why, not what.</p>
