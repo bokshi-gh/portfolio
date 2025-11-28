@@ -18,3 +18,8 @@ Date: November 28, 2025
 	<li>Mixed</li>
 </ul>
 
+<h3>Comments and Documentation</h3>
+<p>Explain why, not what.</p>
+
+<h3>Programming Practices</h3>
+<b>DRY Principle:</b> Don't repeat yourself, use functions for repeated logic.
