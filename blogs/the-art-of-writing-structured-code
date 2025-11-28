@@ -1,4 +1,4 @@
-Title: The are of writing structured code 
+Title: The art of writing structured code 
 Date: November 28, 2025
 
 <p>This blog is all about how to write well structured code.</p>
@@ -6,7 +6,7 @@ Date: November 28, 2025
 <h3>Formatting</h3>
 <b>Indentation:</b> Use tab or 2–4 spaces consistently per level; avoid mixing tabs and spaces.
 
-<h3>Naming<h3>
+<h3>Naming</h3>
 <ul>
 	<li>lowercase</li>
 	<li>SCREAMINGCASE</li>
