@@ -25,5 +25,7 @@ Date: November 28, 2025
 <h3>Comments and Documentation</h3>
 <p>Explain why, not what.</p>
 
-<h3>Programming Practices</h3>
-<b>DRY Principle:</b> <span>Don't repeat yourself; use functions for repeated logic.</span>
+<details>
+	<summary><h3>Programming Practices</h3></summary>
+	<b>DRY Principle:</b> <span>Don't repeat yourself; use functions for repeated logic.</span>
+</details>
