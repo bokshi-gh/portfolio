@@ -4,12 +4,12 @@ Date: November 28, 2025
 <p>This blog is all about how to write well structured code.</p>
 
 <details>
-	<summary><h3>Formatting</h3></summary>
+	<summary>Formatting</summary>
 	<b>Indentation:</b> <span>Use tab or 2–4 spaces consistently per level; avoid mixing tabs and spaces.</span>
 </details>
 
 <details>
-	<summary><h3>Naming</h3></summary>
+	<summary>Naming</summary>
 	<ul>
 		<li>lowercase</li>
 		<li>SCREAMINGCASE</li>
@@ -23,11 +23,11 @@ Date: November 28, 2025
 </details>
 
 <details>
-	<summary><h3>Comments and Documentation</h3></summary>
+	<summary>Comments and Documentation</summary>
 	<p>Explain why, not what.</p>
 </details>
 
 <details>
-	<summary><h3>Programming Practices</h3></summary>
+	<summary>Programming Practices</summary>
 	<b>DRY Principle:</b> <span>Don't repeat yourself; use functions for repeated logic.</span>
 </details>
