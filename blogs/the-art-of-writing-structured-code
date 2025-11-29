@@ -94,7 +94,7 @@ enum Day<span class="space" style="background-color: yellow; padding: 0 0.3rem;"
                 <li>PascalCase</li>
                 <li>snake_case</li>
                 <li>kebab-case</li>
-                <li><a href="https://en.wikipedia.org/wiki/Hungarian_notation" target="_blank">sHungarianNotation</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Hungarian_notation" target="_blank">Hungarian Notation</a></li>
                 <li>Hybrid</li>
         </ul>
 </details>
