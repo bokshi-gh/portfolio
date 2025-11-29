@@ -19,6 +19,10 @@ ul {
   padding-left: 1rem;
 }
 
+code {
+  background-color: rgb(240, 240, 240);
+}
+
 .container {
   padding: 1rem;
   display: flex;
