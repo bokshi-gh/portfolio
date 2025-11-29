@@ -5,7 +5,7 @@ Date: November 28, 2025
 
 <details>
 	<summary>Formatting</summary>
-	<b>Indentation:</b> <span>Use tab or 2–4 spaces consistently per level; avoid mixing tabs and spaces.</span>
+	<span>Indentation:</span> <span>Use tab or 2–4 spaces consistently per level; avoid mixing tabs and spaces.</span>
 </details>
 
 <details>
@@ -29,5 +29,5 @@ Date: November 28, 2025
 
 <details>
 	<summary>Programming Practices</summary>
-	<b>DRY Principle:</b> <span>Don't repeat yourself; use functions for repeated logic.</span>
+	<span>DRY Principle:</span> <span>Don't repeat yourself; use functions for repeated logic.</span>
 </details>
