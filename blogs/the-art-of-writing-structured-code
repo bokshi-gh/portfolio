@@ -2,12 +2,6 @@ Title: The art of writing structured code
 Date: November 28, 2025
 
 <style>
-details {
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
-}
-
 summary {
 	font-weight: bold;
 	font-size: 20px;
@@ -32,8 +26,9 @@ pre {
 
 <details>
         <summary>Formatting</summary>
+	<br>
         <p><b>Indentation:</b> Use tab or 2–4 spaces consistently per level; avoid mixing tabs and spaces.</p>
-		<br>
+	<br>
         <p><b>Whitespace:</b></p>
         <ul>
                 <li>Around parenthesis</li>
@@ -61,7 +56,7 @@ for (int i<span class="space" style="background-color: yellow; padding: 0 0.3rem
 </code></pre>
                <li>After commas</li>
 <pre><code>// lists
-int arr = {1,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>2,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>3,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>4,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>5};
+int arr[] = {1,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>2,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>3,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>4,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>5};
 
 // function declaration
 int add(int a,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>int b) {}
@@ -83,9 +78,9 @@ struct Node<span class="space" style="background-color: yellow; padding: 0 0.3re
 enum Day<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>{};
 </code></pre>
         </ul>
-		<br>
+	<br>
         <p><b>Line Breaks:</b> Keep lines ≤ 80–120 characters. Break long expressions.</p>
-		<br>
+	<br>
         <p><b>Blank Lines:</b> Separate logical sections (imports, constant, loop, conditional, functions) for readability.</p>
 </details>
 
