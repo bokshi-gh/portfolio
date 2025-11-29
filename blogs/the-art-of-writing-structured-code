@@ -1,7 +1,7 @@
 Title: The art of writing structured code 
 Date: November 28, 2025
 
-<p>This blog is all about how to write well structured code.</p>
+<p>This blog is all about how to write clean and well structured code.</p>
 
 <details>
 	<summary>Formatting</summary>
@@ -17,7 +17,7 @@ Date: November 28, 2025
 		<li>PascalCase</li>
 		<li>snake_case</li>
 		<li>kebab-case</li>
-		<li><a src"https://en.wikipedia.org/wiki/Hungarian_notation" target="_blank">Hungarian Notation</a></li>
+		<li><a src="https://en.wikipedia.org/wiki/Hungarian_notation" target="_blank">Hungarian Notation</a></li>
 		<li>Mixed</li>
 	</ul>
 </details>
