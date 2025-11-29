@@ -6,18 +6,19 @@ Date: November 28, 2025
 <details>
 	<summary>Formatting</summary>
 	<span>Indentation:</span> <span>Use tab or 2–4 spaces consistently per level; avoid mixing tabs and spaces.</span>
+	<br>
 	<span>Whitespace:</span>
 	<ul>
 		<li>Around operators</li>
-		<pre><code>
-		int x = a * b + (c % d);
+<pre><code>
+int x = a * b + (c % d);
 
-		x += 1;
+x += 1;
 
-		for (int i = 0; i <= 10; i++) {}
-		</code>/<pre>
+for (int i = 0; i <= 10; i++) {}
+</code>/<pre>
 		<li>Around parenthesis</li>
-		<pre><code>
+<pre><code>
 		// conditional
 		if () {}
 
@@ -25,7 +26,7 @@ Date: November 28, 2025
 		while () {}
 		do {
 		} while ();
-		</code></pre>
+</code></pre>
 	</ul>
 	<span>Line Breaks:</span> <span>Keep lines ≤ 80–120 characters. Break long expressions.</span>
 	<span>Blank Lines:</span> <span>Separate logical sections (imports, constant, functions, loop, conditional)</span>
