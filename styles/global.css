@@ -19,8 +19,9 @@ ul {
   padding-left: 1rem;
 }
 
-code {
+pre {
   background-color: rgb(240, 240, 240);
+  padding: 0.8rem;
 }
 
 .container {

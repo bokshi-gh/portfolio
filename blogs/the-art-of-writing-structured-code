@@ -1,16 +1,21 @@
 Title: The art of writing structured code 
 Date: November 28, 2025
 
+<style>
+summary {
+	font-weight: bold;
+}
+</style>
+
 <p>This blog helps you write clean and well structured code(at least for me).</p>
 
 <details>
         <summary>Formatting</summary>
-        <p>Indentation: Use tab or 2–4 spaces consistently per level; avoid mixing tabs and spaces.</p>
-        <p>Whitespace:</p>
+        <p><b>Indentation:</b> Use tab or 2–4 spaces consistently per level; avoid mixing tabs and spaces.</p>
+        <p><b>Whitespace:</b></p>
         <ul>
                 <li>Around operators</li>
-<pre><code>
-// expression
+<pre><code>// expression
 int x = a * b + (c % d);
 
 // assignment
@@ -20,8 +25,7 @@ x += 1;
 for (int i = 0; i <= 69; i++) {}
 </code></pre>
                 <li>Around parenthesis</li>
-<pre><code>
-// conditional
+<pre><code>// conditional
 if () {}
 
 // for loop
@@ -31,8 +35,7 @@ for () {}
 while () {}
 </code></pre>
                <li>After commas</li>
-<pre><code>
-// lists
+<pre><code>// lists
 int arr = {1, 2, 3, 4, 5};
 
 // function declaration
@@ -42,8 +45,7 @@ int add(int a, int b) {}
 add(6, 9);
 </code></pre>
                 <li>Before "{"</li>
-<pre><code>
-// class
+<pre><code>// class
 class HashMap {};
 
 // function
@@ -56,8 +58,8 @@ struct Node {};
 enum Day {};
 </code></pre>
         </ul>
-        <p>Line Breaks: Keep lines ≤ 80–120 characters. Break long expressions.</p>
-        <p>Blank Lines: Separate logical sections (imports, constant, loop, conditional, functions) for readability.</p>
+        <p><b>Line Breaks:</b> Keep lines ≤ 80–120 characters. Break long expressions.</p>
+        <p><b>Blank Lines:</b> Separate logical sections (imports, constant, loop, conditional, functions) for readability.</p>
 </details>
 
 <details>
@@ -81,10 +83,10 @@ enum Day {};
 
 <details>
         <summary>Code Structure</summary>
-        <span>Order of functions in classes:</span> <span>constructors → methods → helpers</span>
+        <p><b>Order of functions in classes:</b> constructors → methods → helpers</p>
 </details>
 
 <details>
         <summary>Programming Practices</summary>
-        <p>DRY Principle: Don't repeat yourself; use functions for repeated logic.</p>
+        <p><b>DRY Principle:</b> Don't repeat yourself; use functions for repeated logic.</p>
 </details>
