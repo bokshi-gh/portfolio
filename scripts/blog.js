@@ -45,5 +45,3 @@ const indexOfTitleQueryParameter = url.indexOf("title=");
 const linkTitle = url.slice(indexOfTitleQueryParameter + 6, url.length);
 
 fetchBlog(linkTitle);
-
-hljs.highlightAll();
