@@ -6,6 +6,8 @@ Date: November 28, 2025
 <details>
 	<summary>Formatting</summary>
 	<span>Indentation:</span> <span>Use tab or 2–4 spaces consistently per level; avoid mixing tabs and spaces.</span>
+	<span>Line Breaks:</span> <span>Keep lines ≤ 80–120 characters. Break long expressions.</span>
+	<span>Blank Lines:</span> <span>Separate logical sections (imports, constant, functions, loop, conditional)</span>
 </details>
 
 <details>
