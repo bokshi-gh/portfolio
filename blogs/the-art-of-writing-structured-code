@@ -5,6 +5,7 @@ Date: November 28, 2025
 summary {
 	font-weight: bold;
 	font-size: 20px;
+	cursor: pointer;
 }
 
 ul {
