@@ -46,8 +46,11 @@ while<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></
 <pre><code>// assignment
 int x<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>=<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>69;
 
-// expression
-int x = a<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>*<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>b<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>+<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>(c<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>%<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>d);
+// arithmatic expression
+a<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>*<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>b<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>+<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>(c<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>%<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>d);
+
+// ternary expression
+((a & 1) == 1)<span class="space" style="background-color: yellow; padding: 0 0.3rem;">?<span class="space" style="background-color: yellow; padding: 0 0.3rem;">"Odd"<span class="space" style="background-color: yellow; padding: 0 0.3rem;">:<span class="space" style="background-color: yellow; padding: 0 0.3rem;">"Even";
 
 // conditional
 if (x<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>>=<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>69) {}
