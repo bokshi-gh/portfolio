@@ -38,49 +38,49 @@ pre {
         <ul>
                 <li>Around parenthesis</li>
 <pre><code>// conditional
-if<span class="space"></span>()<span class="space"></span>{}
+if<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>()<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>{}
 
 // for loop
-for<span class="space"></span>()<span class="space"></span>{}
+for<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>()<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>{}
 
 // while loop
-while<span class="space"></span>()<span class="space"></span>{}
+while<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>()<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>{}
 </code></pre>
                 <li>Around operators</li>
 <pre><code>// assignment
-int x<span class="space"></span>=<span class="space"></span>69;
+int x<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>=<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>69;
 
 // expression
-int x = a<span class="space"></span>*<span class="space"></span>b<span class="space"></span>+<span class="space"></span>(c<span class="space"></span>%<span class="space"></span>d);
+int x = a<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>*<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>b<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>+<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>(c<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>%<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>d);
 
 // conditional
-if (x<span class="space"></span>>=<span class="space"></span>69) {}
+if (x<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>>=<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>69) {}
 
 // for loop
-for (int i<span class="space"></span>=<span class="space"></span>0; i<span class="space"></span><=<span class="space"></span>69; i++) {}
+for (int i<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>=<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>0; i<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span><=<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>69; i++) {}
 </code></pre>
                <li>After commas</li>
 <pre><code>// lists
-int arr = {1,<span class="space"></span>2,<span class="space"></span>3,<span class="space"></span>4,<span class="space"></span>5};
+int arr = {1,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>2,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>3,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>4,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>5};
 
 // function declaration
-int add(int a,<span class="space"></span>int b) {}
+int add(int a,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>int b) {}
 
 // function call
-add(6,<span class="space"></span>9);
+add(6,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>9);
 </code></pre>
                 <li>Before "{"</li>
 <pre><code>// class
-class HashMap<span class="space"></span>{};
+class HashMap<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>{};
 
 // function
-int handler()<span class="space"></span>{}
+int handler()<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>{}
 
 // struct
-struct Node<span class="space"></span>{};
+struct Node<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>{};
 
 // enum
-enum Day<span class="space"></span>{};
+enum Day<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>{};
 </code></pre>
         </ul>
 		<br>
