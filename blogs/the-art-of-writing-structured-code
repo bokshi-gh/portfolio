@@ -38,49 +38,49 @@ pre {
         <ul>
                 <li>Around parenthesis</li>
 <pre><code>// conditional
-if () {}
+if<span class="space"></span>()<span class="space"></span>{}
 
 // for loop
-for () {}
+for<span class="space"></span>()<span class="space"></span>{}
 
 // while loop
-while () {}
+while<span class="space"></span>()<span class="space"></span>{}
 </code></pre>
                 <li>Around operators</li>
-<pre><code>// expression
-int x = a * b + (c % d);
+<pre><code>// assignment
+int x<span class="space"></span>=<span class="space"></span>69;
 
-// assignment
-x += 1;
+// expression
+int x = a<span class="space"></span>*<span class="space"></span>b<span class="space"></span>+<span class="space"></span>(c<span class="space"></span>%<span class="space"></span>d);
 
 // conditional
-if (x >= 69) {}
+if (x<span class="space"></span>>=<span class="space"></span>69) {}
 
 // for loop
-for (int i = 0; i <= 69; i++) {}
+for (int i<span class="space"></span>=<span class="space"></span>0; i<span class="space"></span><=<span class="space"></span>69; i++) {}
 </code></pre>
                <li>After commas</li>
 <pre><code>// lists
-int arr = {1, 2, 3, 4, 5};
+int arr = {1,<span class="space"></span>2,<span class="space"></span>3,<span class="space"></span>4,<span class="space"></span>5};
 
 // function declaration
-int add(int a, int b) {}
+int add(int a,<span class="space"></span>int b) {}
 
 // function call
-add(6, 9);
+add(6,<span class="space"></span>9);
 </code></pre>
                 <li>Before "{"</li>
 <pre><code>// class
-class HashMap {};
+class HashMap<span class="space"></span>{};
 
 // function
-int handler() {}
+int handler()<span class="space"></span>{}
 
 // struct
-struct Node {};
+struct Node<span class="space"></span>{};
 
 // enum
-enum Day {};
+enum Day<span class="space"></span>{};
 </code></pre>
         </ul>
 		<br>
