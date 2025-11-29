@@ -64,7 +64,7 @@ int add(int a,<span class="space" style="background-color: yellow; padding: 0 0.
 // function call
 add(6,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>9);
 </code></pre>
-                <li>Before "{"</li>
+                <li>Before opening brace (“{”)</li>
 <pre><code>// class
 class HashMap<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>{};
 
