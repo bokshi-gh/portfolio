@@ -18,7 +18,7 @@ x += 1;
 
 // loop
 for (int i = 0; i <= 69; i++) {}
-</code><pre>
+</code></pre>
                 <li>Around parenthesis</li>
 <pre><code>
 // conditional
