@@ -19,11 +19,6 @@ ul {
   padding-left: 1rem;
 }
 
-pre {
-  background-color: rgb(240, 240, 240);
-  padding: 0.8rem;
-}
-
 .container {
   padding: 1rem;
   display: flex;

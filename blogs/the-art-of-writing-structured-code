@@ -2,8 +2,27 @@ Title: The art of writing structured code
 Date: November 28, 2025
 
 <style>
+
+details {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+}
+
 summary {
 	font-weight: bold;
+	font-size: 20px;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+pre {
+	background-color: rgb(240, 240, 240);
+	padding: 0.8rem;
 }
 </style>
 
