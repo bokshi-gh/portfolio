@@ -36,16 +36,6 @@ pre {
 		<br>
         <p><b>Whitespace:</b></p>
         <ul>
-                <li>Around operators</li>
-<pre><code>// expression
-int x = a * b + (c % d);
-
-// assignment
-x += 1;
-
-// loop
-for (int i = 0; i <= 69; i++) {}
-</code></pre>
                 <li>Around parenthesis</li>
 <pre><code>// conditional
 if () {}
@@ -55,6 +45,16 @@ for () {}
 
 // while loop
 while () {}
+</code></pre>
+                <li>Around operators</li>
+<pre><code>// expression
+int x = a * b + (c % d);
+
+// assignment
+x += 1;
+
+// for loop
+for (int i = 0; i <= 69; i++) {}
 </code></pre>
                <li>After commas</li>
 <pre><code>// lists
