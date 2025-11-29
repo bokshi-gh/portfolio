@@ -18,6 +18,7 @@ ul {
 	flex-direction: column;
 	gap: 0.8rem;
 	padding: 0.5rem;
+	padding-left; 2rem;
 }
 
 pre {
@@ -36,7 +37,7 @@ pre {
         <p><b>Whitespace:</b></p>
         <ul>
                 <li>Around operators</li>
-<pre><code class="language-cpp">// expression
+<pre><code>// expression
 int x = a * b + (c % d);
 
 // assignment
@@ -46,7 +47,7 @@ x += 1;
 for (int i = 0; i <= 69; i++) {}
 </code></pre>
                 <li>Around parenthesis</li>
-<pre><code class="language-cpp">// conditional
+<pre><code>// conditional
 if () {}
 
 // for loop
@@ -56,7 +57,7 @@ for () {}
 while () {}
 </code></pre>
                <li>After commas</li>
-<pre><code class="language-cpp">// lists
+<pre><code>// lists
 int arr = {1, 2, 3, 4, 5};
 
 // function declaration
@@ -66,7 +67,7 @@ int add(int a, int b) {}
 add(6, 9);
 </code></pre>
                 <li>Before "{"</li>
-<pre><code class="language-cpp">// class
+<pre><code>// class
 class HashMap {};
 
 // function
