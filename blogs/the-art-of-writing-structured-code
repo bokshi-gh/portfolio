@@ -22,7 +22,7 @@ ul {
 pre {
 	background-color: rgb(240, 240, 240);
 	padding: 0.8rem;
-	font-size: 0.5rem;
+	font-size: 15px;
 }
 </style>
 
