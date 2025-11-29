@@ -53,6 +53,9 @@ int x = a * b + (c % d);
 // assignment
 x += 1;
 
+// conditional
+if (x >= 69) {}
+
 // for loop
 for (int i = 0; i <= 69; i++) {}
 </code></pre>
@@ -112,5 +115,5 @@ enum Day {};
 
 <details>
         <summary>Programming Practices</summary>
-        <p><b>DRY Principle:</b> Don't repeat yourself; use functions for repeated logic.</p>
+        <p><b><a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself" target="_blank">DRY Principle:</b></a> Don't repeat yourself; use functions for repeated logic.</p>
 </details>
