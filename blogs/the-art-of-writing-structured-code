@@ -34,7 +34,7 @@ pre {
         <p><b>Whitespace:</b></p>
         <ul>
                 <li>Around operators</li>
-<pre><code>// expression
+<pre><code class="language-cpp">// expression
 int x = a * b + (c % d);
 
 // assignment
@@ -44,7 +44,7 @@ x += 1;
 for (int i = 0; i <= 69; i++) {}
 </code></pre>
                 <li>Around parenthesis</li>
-<pre><code>// conditional
+<pre><code class="language-cpp">// conditional
 if () {}
 
 // for loop
@@ -54,7 +54,7 @@ for () {}
 while () {}
 </code></pre>
                <li>After commas</li>
-<pre><code>// lists
+<pre><code class="language-cpp">// lists
 int arr = {1, 2, 3, 4, 5};
 
 // function declaration
@@ -64,7 +64,7 @@ int add(int a, int b) {}
 add(6, 9);
 </code></pre>
                 <li>Before "{"</li>
-<pre><code>// class
+<pre><code class="language-cpp">// class
 class HashMap {};
 
 // function
