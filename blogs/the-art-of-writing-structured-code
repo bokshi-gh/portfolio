@@ -109,7 +109,7 @@ enum Day<span class="space" style="background-color: yellow; padding: 0 0.3rem;"
 
 <details>
         <summary>Code Structure</summary>
-        <p><b>Order of functions in classes:</b> constructors → methods → helpers</p>
+        <p><b>Order of functions in classes:</b> Constructors → Methods → Helpers</p>
 </details>
 
 <details>
