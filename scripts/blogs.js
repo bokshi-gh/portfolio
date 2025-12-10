@@ -23,7 +23,11 @@ const fetchBlog = async (data) => {
             const element = `
                 <div class="blog">
                     <a href="blog.html?title=${linkTitle}">${title}</a>
-                    <span><i class="fa-solid fa-calendar"></i> ${date}, <p>${tag}</p></span>
+		    <div class="date-and-tag">
+	                <span><i class="fa-solid fa-calendar"></i> ${date}</span>
+			|
+			<span>${tag}</span>
+		    </div>
                 </div>
             `
 

@@ -10,8 +10,16 @@
     gap: 0.25rem;
 }
 
-.container .blog-list .blog span p {
+.container .blog-list .blog .date-and-time {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.container .blog-list .blog span:nth-child(2) {
 	padding: 0.2rem;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
 	border-radius: 0.5rem;
-	border: 0.1rem solid black;
+	border: 0.1px solid #e0e0e0;
+	font-size: 12px;
 } 
