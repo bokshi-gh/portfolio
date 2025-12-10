@@ -14,17 +14,16 @@ const fetchBlog = async (data) => {
             let raw = await response.text();
             raw = raw.replace(/\r\n/g, "\n");
 
-            const indexOfFirstNewline = raw.indexOf("\n");
-            const indexOfSecondNewline = raw.indexOf("\n\n");
-
-            const title = raw.slice(7, indexOfFirstNewline);
-            const date = raw.slice(indexOfFirstNewline + 7, indexOfSecondNewline);
+	    let lines = raw.split('\n');
+            const title = lines[0].slice(6);
+            const date = lines[1].slice(5);
+            const tag = lines[3].slice(4);
 
             const linkTitle = blog.name;
             const element = `
                 <div class="blog">
                     <a href="blog.html?title=${linkTitle}">${title}</a>
-                    <span><i class="fa-solid fa-calendar"></i> ${date}</span>
+                    <span><i class="fa-solid fa-calendar"></i> ${date}, <p>${tag}</p></span>
                 </div>
             `
 
