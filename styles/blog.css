@@ -4,6 +4,20 @@
     gap: 0.25rem;
 }
 
+.container .header .date-and-tag {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.container .header .date-and-tag span {
+	padding: 0.2rem;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+	border-radius: 0.5rem;
+	border: 0.5px solid #c0c0c0;
+	font-size: 13px;
+}
+
 .container #content {
     display: flex;
     flex-direction: column;

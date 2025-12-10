@@ -1,5 +1,6 @@
 const blogTitle = document.getElementsByTagName("h2")[0];
 const blogDate = document.getElementById("date");
+const blogTag = document.getElementsByTagName("span")[0];
 const blogContent = document.getElementById("content");
 
 blogDate.innerText = "fetching blog contents..."
@@ -17,19 +18,21 @@ const fetchBlog = async (linkTitle) => {
         let raw = await response.text();
         raw = raw.replace(/\r\n/g, "\n");
 
-        const indexOfFirstNewline = raw.indexOf("\n");
-        const indexOfSecondNewline = raw.indexOf("\n\n");
+        let lines = raw.split('\n');
+        const indexOfDoubleNewline = raw.indexOf("\n\n");
 
-        const title = raw.slice(7, indexOfFirstNewline);
+        const title = lines[0].slice(7);
         document.title = title + " | " + "Rajesh Thapa";
+        const date = lines[1].slice(6);
+        const tag = lines[2].slice(5);
+        const content = raw.slice(indexOfDoubleNewline + 2, raw.length);
 
-        const date = raw.slice(indexOfFirstNewline + 7, indexOfSecondNewline);
-        const content = raw.slice(indexOfSecondNewline + 2, raw.length);
 
         blogDate.innerText = "";
 
         blogTitle.innerText = title;
         blogDate.innerHTML = `<i class="fa-solid fa-calendar"></i>` + " " + date;
+	blogTag.innerText = tag;
         blogContent.innerHTML = content;
     } catch (error) {
         blogDate.innerText = "";
