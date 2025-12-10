@@ -15,9 +15,9 @@ const fetchBlog = async (data) => {
             raw = raw.replace(/\r\n/g, "\n");
 
 	    let lines = raw.split('\n');
-            const title = lines[0].slice(6);
-            const date = lines[1].slice(5);
-            const tag = lines[3].slice(4);
+            const title = lines[0].slice(7);
+            const date = lines[1].slice(6);
+            const tag = lines[2].slice(5);
 
             const linkTitle = blog.name;
             const element = `
