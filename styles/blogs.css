@@ -9,3 +9,9 @@
     flex-direction: column;
     gap: 0.25rem;
 }
+
+.container .blog-list .blog span p {
+	padding: 0.2rem;
+	border-radius: 0.5rem;
+	border: 0.1rem solid black;
+} 
