@@ -9,6 +9,10 @@
   gap: 0.5rem;
 }
 
+.container header .bio .age {
+	width: 7.5rem;
+}
+
 .container header nav {
   display: flex;
   gap: 0.5rem;
