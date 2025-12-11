@@ -9,12 +9,7 @@
   gap: 0.5rem;
 }
 
-.container header .socials {
+.container header nav {
   display: flex;
   gap: 0.5rem;
-}
-
-.container header .socials a i {
-  font-size: 25px;
-  color: black;
 }
