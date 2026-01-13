@@ -60,11 +60,11 @@ if (x<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></
 for (int i<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>=<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>0; i<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span><=<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>69; i++) {}
 </code></pre>
                <li>After commas</li>
-<pre><code>// lists
+<pre><code>// array
 int arr[] = {1,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>2,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>3,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>4,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>5};
 
 // function declaration
-int add(int a,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>int b) {}
+int add(int a,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>int b);
 
 // function call
 add(6,<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>9);
@@ -84,7 +84,7 @@ enum Day<span class="space" style="background-color: yellow; padding: 0 0.3rem;"
 </code></pre>
 				<li>After forward slash (“/”)</li>
 <code><pre>// comment
-//<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>This is single line comment!
+//<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>This is single line comment
 </code></pre>
         </ul>
 	<br>
