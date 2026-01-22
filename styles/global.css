@@ -9,6 +9,7 @@
 
 body {
   font-family: "Space Grotesk", sans-serif;
+  background-color: #f0eee6;
   display: flex;
   flex-direction: column;
   align-items: center;
