@@ -23,7 +23,7 @@ ul {
 }
 
 .container {
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -33,7 +33,7 @@ ul {
 .container .list {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .container .back a {
@@ -44,7 +44,7 @@ footer {
   align-self: flex-end;
   background-color: rgb(240, 240, 240);
   font-size: 16px;
-  padding: 1rem;
+  padding: 1.5rem;
   width: 100%;
   text-align: center;
 }
