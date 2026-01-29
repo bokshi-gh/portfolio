@@ -19,7 +19,7 @@ body {
 }
 
 ul {
-  padding-left: 1.2rem;
+  padding-left: 1.5rem;
 }
 
 .container {
@@ -41,8 +41,7 @@ ul {
 }
 
 footer {
-  align-self: flex-end;
-  background-color: rgb(240, 240, 240);
+  background-color: #e0ded2;
   padding: 1.5rem;
   width: 100%;
   text-align: center;
