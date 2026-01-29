@@ -10,10 +10,6 @@
     gap: 0.5rem;
 }
 
-.container .blog-list .blog .date-and-time {
-	display: flex;
-	gap: 1rem;
-}
 
 .container .blog-list .blog span:nth-child(2) {
 	padding: 0.2rem;
