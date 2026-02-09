@@ -18,8 +18,8 @@
 	border-radius: 0.5rem;
 	border: 0.5px solid #c0c0c0;
 	font-size: 13px;
-  display: none;
-  height: fit-content;
+    display: none;
+    height: fit-content;
 }
 
 .container #content {
@@ -27,3 +27,4 @@
   flex-direction: column;
   gap: 1rem;
 }
+
