@@ -1,12 +1,12 @@
 .container .header {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .container .header .date-and-tag {
 	display: flex;
-	gap: 1rem;
+	gap: 0.5rem;
 }
 
 .container .header .date-and-tag span {
@@ -16,10 +16,12 @@
 	border-radius: 0.5rem;
 	border: 0.5px solid #c0c0c0;
 	font-size: 13px;
+  display: none;
+  height: fit-content;
 }
 
 .container #content {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }

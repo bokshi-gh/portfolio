@@ -22,7 +22,6 @@ const fetchBlog = async (linkTitle) => {
         const indexOfDoubleNewline = raw.indexOf("\n\n");
 
         const title = lines[0].slice(7);
-        document.title = title + " | " + "Rajesh Thapa";
         const date = lines[1].slice(6);
         const tag = lines[2].slice(5);
         const content = raw.slice(indexOfDoubleNewline + 2, raw.length);
@@ -30,14 +29,19 @@ const fetchBlog = async (linkTitle) => {
 
         blogDate.innerText = "";
 
+        document.title = title + " | " + "Rajesh Thapa";
         blogTitle.innerText = title;
         blogDate.innerHTML = `<i class="fa-solid fa-calendar"></i>` + " " + date;
-	    blogTag.innerText = tag;
+        blogTag.innerText = tag;
         blogContent.innerHTML = content;
+
+        const seperator = document.createElement('p');
+        seperator.textContent = '|';
+        blogDate.after(seperator);
+        blogTag.style.display = "block";
     } catch (error) {
         blogDate.innerText = "";
-        blogDate.innerText = `Failed to fetch Blog contents\r\nEither the blog you are trying to find was deleted/migrated or simply didn't existed\r\n${error}`;
-
+        blogDate.innerText = `Failed to fetch Blog contents.\r\n\r\nEither the blog you are trying to find was deleted/migrated or simply didn't existed.\r\n\r\n${error}`;
         console.error('Failed to fetch Blog:', error);
     }
 
