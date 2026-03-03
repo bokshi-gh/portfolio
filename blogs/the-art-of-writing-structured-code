@@ -5,7 +5,6 @@ Tag: Coding
 <style>
 summary {
 	font-weight: bold;
-	font-size: 20px;
 	cursor: pointer;
 }
 
