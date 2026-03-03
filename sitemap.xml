@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       
   <url>
     <loc>https://rajeshthapa69.com.np/</loc>
@@ -26,4 +26,9 @@
     <priority>0.60</priority>
   </url>
 
+  <url>
+    <loc>https://rajeshthapa69.com.np/pages/blog.html?title=things-i-do-not-know</loc>
+    <lastmod>2026-03-05T10:21:16+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
 </urlset>
