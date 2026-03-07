@@ -1,17 +1,24 @@
-Title: Curiosity: The Urge to Explore the Unknown
+Title: Curiosity
 Date: March 7, 2026
-Tag: Curiosity
+Tag: Personal Reflection
 
 <style>
   strong {
     font-weight: bold;
+  }
+  .pipe-quote {
+    border-left: 4px solid #888; /* the vertical pipe */
+    padding-left: 12px;          /* space between pipe and text */
+    margin-left: 0;
+    color: #555;                 /* optional text color */
+    font-style: italic;          /* optional style */
   }
 </style>
 
 <p>Curiosity is the desire to know or understand something you don’t know yet.  
 It’s the feeling or drive that makes you ask “Why?”, “How?”, or “What happens if…?”</p>
 
-<blockquote>Curiosity is the urge to explore the unknown.</blockquote>
+<p class="pipe-quote">Curiosity is the urge to explore the unknown.</p>
 
 <p>It pushes us to:</p>
 <ul>
@@ -21,9 +28,9 @@ It’s the feeling or drive that makes you ask “Why?”, “How?”, or “Wha
   <li>Explore patterns and mysteries</li>
 </ul>
 
-<p>Curiosity does not require you to be highly intellectual or deeply passionate. Anyone can be curious.  
-Although passion may ignite or keep curiosity alive, it is not necessary for curiosity to exist.  
-You can be curious about many things without being passionate about them or an expert in them.</p>
+<p>Curiosity does not require you to be highly intellectual or deeply passionate. Anyone can be curious.</p>
+<p>You can be curious about many things without being passionate about them or an expert in them.</p>
+<p>Although passion may ignite or keep curiosity alive, it is not necessary for curiosity to exist.</p>
 
 <p>At its core, curiosity is simply the ability and willingness to ask questions, even simple ones such as:</p>
 <ul>
@@ -32,4 +39,4 @@ You can be curious about many things without being passionate about them or an e
   <li>Why is water wet?</li>
 </ul>
 
-<blockquote>Curiosity is not about already knowing things — it is about wanting to know.</blockquote>
+<p class="pipe-quote">Curiosity is not about already knowing things — it is about wanting to know.</p>
