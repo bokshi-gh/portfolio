@@ -7,6 +7,7 @@
 }
 
 .container header h2 {
+  font-family: 'Verdana Bold', sans-serif;
   font-size: 25px;
 }
 
@@ -23,4 +24,23 @@
 .container header nav {
   display: flex;
   gap: 0.5rem;
+}
+
+footer {
+  background-color: #F0F0F0;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 520px) {
+  footer {
+    font-size: 12px;
+  }
 }
