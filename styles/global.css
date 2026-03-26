@@ -55,3 +55,9 @@ ul {
   font-weight: bold;
   color: blue;
 }
+
+@media (min-width: 1000px) {
+  .container {
+    width: 50%;
+  }
+}
