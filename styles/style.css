@@ -24,7 +24,7 @@
 .container header .profile-header .profile-banner img {
   object-position: bottom;
   transform: scaleX(-1);
-  mask-image: linear-gradient(to top, transparent 0%, black 30%);
+  mask-image: linear-gradient(to top, transparent 0%, black 25%);
 }
 
 .container header .profile-header .profile-picture {
