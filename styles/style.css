@@ -6,6 +6,36 @@
   gap: 1rem;
 }
 
+.container header .profile-header {
+  position: relative;
+}
+
+.container header .profile-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container header .profile-header .profile-banner {
+  width: 100%;
+  height: 10rem;
+  background-color: black;
+}
+
+.container header .profile-header .profile-banner img {
+  object-position: bottom;
+  transform: scaleX(-1);
+  mask-image: linear-gradient(to top, transparent 1%, black 40%);
+}
+
+.container header .profile-header .profile-picture {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  bottom: -2rem;
+  left: 0.6rem;
+}
+
 .container header h2 {
   font-family: 'Verdana Bold', sans-serif;
   font-size: 25px;
