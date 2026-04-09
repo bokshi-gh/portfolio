@@ -25,16 +25,3 @@
   display: flex;
   gap: 0.5rem;
 }
-
-footer {
-  background-color: #F0F0F0;
-  padding: 1rem;
-  width: 100%;
-  text-align: center;
-}
-
-@media (max-width: 520px) {
-  footer {
-    font-size: 12px;
-  }
-}
