@@ -27,7 +27,3 @@
   flex-direction: column;
   gap: 1rem;
 }
-
-.container #content img.thumbnail {
-  border-radius: 1rem;
-}
