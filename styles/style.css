@@ -35,6 +35,10 @@
   left: 0.6rem;
 }
 
+.container header h2 {
+  font-family: 'Verdana Bold', sans-serif;
+}
+
 .container header nav a {
   color: blue;
   font-weight: bold;
