@@ -35,11 +35,6 @@
   left: 0.6rem;
 }
 
-.container header h3 {
-  font-family: 'Verdana Bold', sans-serif;
-  font-size: 20px;
-}
-
 .container header nav a {
   color: blue;
   font-weight: bold;
