@@ -1,4 +1,4 @@
-const blogTitle = document.getElementsByTagName("h2")[0];
+const blogTitle = document.getElementsByTagName("h3")[0];
 const blogDate = document.getElementById("date");
 const blogTag = document.getElementsByTagName("span")[0];
 const blogContent = document.getElementById("content");

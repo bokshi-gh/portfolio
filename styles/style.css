@@ -6,10 +6,6 @@
   gap: 1rem;
 }
 
-.container header h3 {
-  font-family: 'Verdana Bold', sans-serif;
-}
-
 .container header .bio {
   display: flex;
   gap: 0.5rem;
@@ -18,7 +14,6 @@
 .container header nav {
   display: flex;
   gap: 0.5rem;
-  font-weight: bold;
 }
 
 .container header nav a {
