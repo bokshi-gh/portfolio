@@ -1,6 +1,6 @@
-Title: Things I Don't Know
-Date: March 4, 2026
-Tag: Curiosity
+Title: Things I Don't Know  
+Date: March 4, 2026  
+Tag: Curiosity  
 
 <style>
   strong {
@@ -17,6 +17,7 @@ Tag: Curiosity
   <li>What is life and what is the purpose of it, and why do we even exist?</li>
   <li>Does God exist?</li>
   <li>Determinism, fatalism, and free will</li>
+
   <li>Free will vs determinism:
     <ul>
       <li>Compatibilism (soft determinism)</li>
@@ -26,13 +27,31 @@ Tag: Curiosity
           <li>Hard determinism</li>
         </ul>
       </li>
+
+      <li>Nothing & Something:
+        <ul>
+          <li>What is nothing?</li>
+          <li>What is something?</li>
+          <li>Can something come from nothing?</li>
+          <li>How can something come from nothing?</li>
+          <li>Why is there anything at all instead of nothing?</li>
+          <li>If energy can neither be created nor destroyed, how does this energy exist?</li>
+          <li>How could the universe come from nothing?</li>
+          <li>How did "nothing" exist before the Big Bang?</li>
+          <li>How did the Big Bang happen from nothing?</li>
+        </ul>
+      </li>
     </ul>
   </li>
+
   <li>Are humans inherently good or evil? Are people born evil?</li>
   <li>What’s right and wrong? What's fair and unfair?</li>
+  <li>What is truth, really—and how do we know what’s true?</li>
   <li>Is morality subjective?</li>
   <li>What happens after we die?</li>
   <li>Is antinatalism justified?</li>
+  <li>Who am I? What is the self?</li>
+  <li>Is mathematics discovered or invented?</li>
 </ul>
 
 <strong>Mind & Perception</strong>
@@ -58,6 +77,12 @@ Tag: Curiosity
   <li>Can we time travel to the past? (Grandfather Paradox)</li>
   <li>What are the cosmological consequences once the universe reaches a state of maximum entropy and achieves global thermodynamic equilibrium?</li>
   <li>Quantum entanglement and teleportation</li>
+  <li>Is there a higher dimension beyond the ones we perceive?</li>
+</ul>
+
+<strong>Origins of Life</strong>
+<ul>
+  <li>How did the first self-replicating life actually emerge from non-living matter?</li>
 </ul>
 
 <strong>Computer Science</strong>
