@@ -1,4 +1,4 @@
-Title: Things I Don't Know  
+Title: Things I Don’t Fully Understand  
 Date: March 4, 2026  
 Tag: Curiosity  
 
@@ -10,7 +10,7 @@ Tag: Curiosity
 
 <img src="/assets/blog/images/plato-allegory-of-the-cave-illustration.jpg" alt="Plato's Allegory of the Cave" title="Illustration of Plato’s Allegory of the Cave showing people above ground while prisoners remain inside a cave with fire and shadows" />
 
-<p>This blog is a collection of questions, ideas, and mysteries that I don’t know.</p>
+<p>This blog is a collection of questions, ideas, and mysteries that I don’t fully understand.</p>
 
 <strong>Philosophy</strong>
 <ul>
@@ -27,26 +27,35 @@ Tag: Curiosity
           <li>Hard determinism</li>
         </ul>
       </li>
+    </ul>
+  </li>
 
-      <li>Nothing & Something:
-        <ul>
-          <li>What is nothing?</li>
-          <li>What is something?</li>
-          <li>Can something come from nothing?</li>
-          <li>How can something come from nothing?</li>
-          <li>Why is there anything at all instead of nothing?</li>
-          <li>If energy can neither be created nor destroyed, how does this energy exist?</li>
-          <li>How could the universe come from nothing?</li>
-          <li>How did "nothing" exist before the Big Bang?</li>
-          <li>How did the Big Bang happen from nothing?</li>
-        </ul>
-      </li>
+  <li>Nothing & Something:
+    <ul>
+      <li>What is nothing?</li>
+      <li>What is something?</li>
+      <li>Can something come from nothing?</li>
+      <li>How can something come from nothing?</li>
+      <li>Why is there anything at all instead of nothing?</li>
+      <li>If energy can neither be created nor destroyed, how does this energy exist?</li>
+      <li>How could the universe come from nothing?</li>
+      <li>How did "nothing" exist before the Big Bang?</li>
+      <li>How did the Big Bang happen from nothing?</li>
     </ul>
   </li>
 
   <li>Are humans inherently good or evil? Are people born evil?</li>
   <li>What’s right and wrong? What's fair and unfair?</li>
-  <li>What is truth, really—and how do we know what’s true?</li>
+
+  <li>What is truth, really—and how do we know what’s true?
+    <ul>
+      <li>Can human beings ever fully understand truth or reality?</li>
+      <li>What is reality itself—does it exist independently of perception?</li>
+      <li>Is truth something we discover, or something we construct?</li>
+      <li>What is reality before or after truth?</li>
+    </ul>
+  </li>
+
   <li>Is morality subjective?</li>
   <li>What happens after we die?</li>
   <li>Is antinatalism justified?</li>
