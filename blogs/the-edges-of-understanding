@@ -11,7 +11,7 @@ Tag: Curiosity
     margin-top: 0.5rem;
   }
 
-  li:not(:last-child) {
+  li {
     margin-bottom: 0.5rem;
   }
 </style>
