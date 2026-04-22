@@ -16,12 +16,12 @@
 }
 
 .container .header .date-and-tag span {
-	padding: 0.2rem;
-	padding-left: 0.4rem;
-	padding-right: 0.4rem;
-	border-radius: 0.5rem;
-	border: 0.5px solid #c0c0c0;
-	font-size: 13px;
+  padding: 0.2rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  border-radius: 0.5rem;
+  border: 0.5px solid #c0c0c0;
+  font-size: 13px;
   display: none;
   height: fit-content;
 }
