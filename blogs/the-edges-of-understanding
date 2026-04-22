@@ -1,4 +1,4 @@
-Title: Things I Don’t Fully Understand  
+Title: The Edges of Understanding  
 Date: March 4, 2026  
 Tag: Curiosity  
 
@@ -10,25 +10,12 @@ Tag: Curiosity
 
 <img src="/assets/blog/images/plato-allegory-of-the-cave-illustration.jpg" alt="Plato's Allegory of the Cave" title="Illustration of Plato’s Allegory of the Cave showing people above ground while prisoners remain inside a cave with fire and shadows" />
 
-<p>This blog is a collection of questions, ideas, and mysteries that I don’t fully understand.</p>
+<p>This is a collection of questions, ideas, mysteries, beliefs, and personal reflections—an exploration of reality, mind, existence, and the systems we live in, at the edges of understanding.</p>
 
 <strong>Philosophy</strong>
 <ul>
   <li>What is life and what is the purpose of it, and why do we even exist?</li>
   <li>Does God exist?</li>
-  <li>Determinism, fatalism, and free will</li>
-
-  <li>Free will vs determinism:
-    <ul>
-      <li>Compatibilism (soft determinism)</li>
-      <li>Incompatibilism
-        <ul>
-          <li>Libertarianism</li>
-          <li>Hard determinism</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
 
   <li>Nothing & Something:
     <ul>
@@ -44,8 +31,18 @@ Tag: Curiosity
     </ul>
   </li>
 
-  <li>Are humans inherently good or evil? Are people born evil?</li>
-  <li>What’s right and wrong? What's fair and unfair?</li>
+  <li>Determinism, fatalism, and free will</li>
+  <li>Free will vs determinism:
+    <ul>
+      <li>Compatibilism (soft determinism)</li>
+      <li>Incompatibilism
+        <ul>
+          <li>Libertarianism</li>
+          <li>Hard determinism</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 
   <li>What is truth, really—and how do we know what’s true?
     <ul>
@@ -56,11 +53,13 @@ Tag: Curiosity
     </ul>
   </li>
 
+  <li>What’s right and wrong? What's fair and unfair?</li>
   <li>Is morality subjective?</li>
-  <li>What happens after we die?</li>
-  <li>Is antinatalism justified?</li>
+  <li>Are humans inherently good or evil? Are people born evil?</li>
   <li>Who am I? What is the self?</li>
   <li>Is mathematics discovered or invented?</li>
+  <li>What happens after we die?</li>
+  <li>Is antinatalism justified?</li>
 </ul>
 
 <strong>Mind & Perception</strong>
@@ -68,8 +67,8 @@ Tag: Curiosity
   <li>What is consciousness?</li>
   <li>How does the mind relate to the body, and can consciousness exist independently of it?</li>
   <li>How can I know that other people are real and truly conscious, and not just illusions, projections, or creations of my imagination?</li>
-  <li>Ship of Theseus: what makes an object the same over time?</li>
   <li>Perception of color and subjective reality</li>
+  <li>Ship of Theseus: what makes an object the same over time?</li>
   <li>Why do we dream?</li>
   <li>What causes déjà vu?</li>
   <li>Why do some people experience tinnitus?</li>
@@ -83,9 +82,9 @@ Tag: Curiosity
   <li>Is there a multiverse?</li>
   <li>Does alien life exist?</li>
   <li>Black hole and singularity</li>
-  <li>Can we time travel to the past? (Grandfather Paradox)</li>
-  <li>What are the cosmological consequences once the universe reaches a state of maximum entropy and achieves global thermodynamic equilibrium?</li>
   <li>Quantum entanglement and teleportation</li>
+  <li>Can we time travel to the past? (Grandfather Paradox)</li>
+  <li>What are the cosmological consequences once the universe reaches maximum entropy?</li>
   <li>Is there a higher dimension beyond the ones we perceive?</li>
 </ul>
 
@@ -101,16 +100,17 @@ Tag: Curiosity
   <li>Post-Quantum Cryptography (PQC)</li>
 </ul>
 
-<strong>Culture & Ideas</strong>
+<strong>Human Nature & Society</strong>
 <ul>
   <li>The first rule of Fight Club</li>
-  <li>The Lucifer Effect: why do good people become evil?</li>
+
+  <li>The Matrix & the rat race: are we trapped in systems we don’t question, living by invisible rules?</li>
+  <li><a href="https://youtu.be/j5v8D-alAKE?si=2qu1H66uDCQJiGo1">Why can’t we have nice things?</a></li>
+
   <li>Why do poor people remain poor?</li>
   <li>Why do poor countries remain poor?</li>
-  <li><a href="https://youtu.be/j5v8D-alAKE?si=2qu1H66uDCQJiGo1">Why can’t we have nice things?</a></li>
-  <li>Luck vs skill vs delusion</li>
-  <li>Art vs Science: if Vincent van Gogh hadn’t painted <em>The Starry Night</em>, it might never have existed—but if Newton hadn’t discovered gravity, someone else eventually would have. Why does art feel unique while scientific truth feels inevitable?</li>
-  <li>The Matrix & the rat race: are we trapped in systems we don’t question, living by invisible rules?</li>
+
+  <li>The Lucifer Effect: why do good people become evil?</li>
 
   <li>Fear:
     <ul>
@@ -118,4 +118,8 @@ Tag: Curiosity
       <li>Fear of death</li>
     </ul>
   </li>
+
+  <li>Luck vs skill vs delusion</li>
+
+  <li>Art vs Science: if Vincent van Gogh hadn’t painted <em>The Starry Night</em>, it might never have existed—but if Newton hadn’t discovered gravity, someone else eventually would have. Why does art feel unique while scientific truth feels inevitable?</li>
 </ul>
