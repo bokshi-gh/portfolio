@@ -12,10 +12,12 @@ Tag: Curiosity
 
 <p>This is a collection of questions, ideas, mysteries, beliefs, and personal reflections—an exploration of reality, mind, existence, and the systems we live in, at the edges of understanding.</p>
 
-<strong>Core Ideas</strong>
-
 <details>
-  <summary>Reality & Existence</summary>
+  <summary><strong>Core Ideas</strong></summary>
+
+  <br>
+
+  <strong>Reality & Existence</strong>
   <ul>
     <li>existence</li>
     <li>reality</li>
@@ -26,10 +28,8 @@ Tag: Curiosity
     <li>curiosity</li>
     <li>information</li>
   </ul>
-</details>
 
-<details>
-  <summary>Mind & Identity</summary>
+  <strong>Mind & Identity</strong>
   <ul>
     <li>time</li>
     <li>space</li>
@@ -39,10 +39,8 @@ Tag: Curiosity
     <li>perception</li>
     <li>belief</li>
   </ul>
-</details>
 
-<details>
-  <summary>Agency & Change</summary>
+  <strong>Agency & Change</strong>
   <ul>
     <li>will</li>
     <li>choice</li>
@@ -53,10 +51,8 @@ Tag: Curiosity
     <li>change</li>
     <li>evolution</li>
   </ul>
-</details>
 
-<details>
-  <summary>Society & Systems</summary>
+  <strong>Society & Systems</strong>
   <ul>
     <li>money</li>
     <li>finance</li>
@@ -71,10 +67,8 @@ Tag: Curiosity
     <li>religion</li>
     <li>inequality</li>
   </ul>
-</details>
 
-<details>
-  <summary>Human Experience</summary>
+  <strong>Human Experience</strong>
   <ul>
     <li>fear</li>
     <li>love</li>
@@ -89,18 +83,14 @@ Tag: Curiosity
     <li>evil</li>
     <li>judgment</li>
   </ul>
-</details>
 
-<details>
-  <summary>Nature & World</summary>
+  <strong>Nature & World</strong>
   <ul>
     <li>nature</li>
     <li>geography</li>
   </ul>
-</details>
 
-<details>
-  <summary>Fields of Knowledge</summary>
+  <strong>Knowledge Domains</strong>
   <ul>
     <li>physics</li>
     <li>mathematics</li>
@@ -108,19 +98,13 @@ Tag: Curiosity
     <li>philosophy</li>
     <li>psychology</li>
   </ul>
-</details>
 
-<details>
-  <summary>Art & Literature</summary>
+  <strong>Art & Literature</strong>
   <ul>
-    <li>art</li>
-    <li>literature</li>
-    <li>poetry</li>
-    <li>novel</li>
-    <li>painting</li>
-    <li>architecture</li>
-    <li>sculpture</li>
+    <li>art: painting, architecture and sculpture</li>
+    <li>literature: poetry and novel</li>
   </ul>
+
 </details>
 
 <strong>Philosophy</strong>
