@@ -8,14 +8,17 @@ Tag: Curiosity
   }
 </style>
 
-<img src="/assets/blog/images/plato-allegory-of-the-cave-illustration.jpg" alt="Plato's Allegory of the Cave" title="Illustration of Plato’s Allegory of the Cave showing people above ground while prisoners remain inside a cave with fire and shadows" />
+<img src="/assets/blog/images/plato-allegory-of-the-cave-illustration.jpg"
+     alt="Plato's Allegory of the Cave"
+     title="Illustration of Plato’s Allegory of the Cave showing people above ground while prisoners remain inside a cave with fire and shadows" />
 
-<p>This is a collection of questions, ideas, mysteries, beliefs, and personal reflections—an exploration of reality, mind, existence, and the systems we live in, at the edges of understanding.</p>
+<p>
+This is a collection of questions, ideas, mysteries, beliefs, and personal reflections—an exploration of reality, mind, existence, and the systems we live in, at the edges of understanding.
+</p>
 
+<!-- CORE IDEAS -->
 <details>
-  <summary><strong>Core Ideas</strong></summary>
-
-  <br>
+  <summary><strong>Core Ideas — A Map of Understanding</strong></summary>
 
   <strong>Reality & Existence</strong>
   <ul>
@@ -58,6 +61,7 @@ Tag: Curiosity
     <li>finance</li>
     <li>economy</li>
     <li>power</li>
+    <li>government</>
     <li>control</li>
     <li>war</li>
     <li>politics</li>
@@ -101,12 +105,24 @@ Tag: Curiosity
 
   <strong>Art & Literature</strong>
   <ul>
-    <li>art: painting, architecture and sculpture</li>
-    <li>literature: poetry and novel</li>
+    <li>art
+      <ul>
+        <li>painting</li>
+        <li>architecture</li>
+        <li>sculpture</li>
+      </ul>
+    </li>
+    <li>literature
+      <ul>
+        <li>poetry</li>
+        <li>novel</li>
+      </ul>
+    </li>
   </ul>
 
 </details>
 
+<!-- PHILOSOPHY -->
 <strong>Philosophy</strong>
 <ul>
   <li>What is life and what is the purpose of it, and why do we even exist?</li>
@@ -127,6 +143,7 @@ Tag: Curiosity
   </li>
 
   <li>Determinism, fatalism, and free will</li>
+
   <li>Free will vs determinism:
     <ul>
       <li>Compatibilism (soft determinism)</li>
@@ -163,11 +180,12 @@ Tag: Curiosity
   <li>Is antinatalism justified?</li>
 </ul>
 
+<!-- MIND -->
 <strong>Mind & Perception</strong>
 <ul>
   <li>What is consciousness?</li>
   <li>How does the mind relate to the body, and can consciousness exist independently of it?</li>
-  <li>How can I know that other people are real and truly conscious, and not just illusions, projections, or creations of my imagination?</li>
+  <li>How can I know that other people are real and truly conscious?</li>
   <li>Perception of color and subjective reality</li>
   <li>Ship of Theseus: what makes an object the same over time?</li>
   <li>Why do we dream?</li>
@@ -175,6 +193,7 @@ Tag: Curiosity
   <li>Why do some people experience tinnitus?</li>
 </ul>
 
+<!-- PHYSICS -->
 <strong>Physics</strong>
 <ul>
   <li>What is before the Big Bang?</li>
@@ -185,15 +204,17 @@ Tag: Curiosity
   <li>Black hole and singularity</li>
   <li>Quantum entanglement and teleportation</li>
   <li>Can we time travel to the past? (Grandfather Paradox)</li>
-  <li>What are the cosmological consequences once the universe reaches maximum entropy?</li>
+  <li>What happens at maximum entropy?</li>
   <li>Is there a higher dimension beyond the ones we perceive?</li>
 </ul>
 
+<!-- ORIGINS -->
 <strong>Origins of Life</strong>
 <ul>
-  <li>How did the first self-replicating life actually emerge from non-living matter?</li>
+  <li>How did the first self-replicating life emerge from non-living matter?</li>
 </ul>
 
+<!-- CS -->
 <strong>Computer Science</strong>
 <ul>
   <li>Is P = NP?</li>
@@ -201,15 +222,13 @@ Tag: Curiosity
   <li>Post-Quantum Cryptography (PQC)</li>
 </ul>
 
+<!-- SOCIETY -->
 <strong>Human Nature & Society</strong>
 <ul>
-  <li>What is the first rule of Fight Club?</li>
-
-  <li>The Matrix & the rat race: are we trapped in systems we don’t question, living by invisible rules?</li>
+  <li>The Matrix & the rat race: are we trapped in systems we don’t question?</li>
   <li><a href="https://youtu.be/j5v8D-alAKE?si=2qu1H66uDCQJiGo1">Why can’t we have nice things?</a></li>
 
-  <li>War
-
+  <li>War</li>
   <li>Money</li>
   <li>Power</li>
 
@@ -221,17 +240,14 @@ Tag: Curiosity
   </li>
 
   <li>Regret</li>
-
   <li>Love</li>
 
   <li>Why do poor people remain poor?</li>
   <li>Why do poor countries remain poor?</li>
 
   <li>The Lucifer Effect: why do good people become evil?</li>
-
-  <li>The Seven Deadly Sins: pride, greed, lust, envy, gluttony, wrath, and sloth</li>
-
+  <li>The Seven Deadly Sins</li>
   <li>Luck vs skill vs delusion</li>
 
-  <li>Art vs Science: if Vincent van Gogh hadn’t painted <em>The Starry Night</em>, it might never have existed—but if Newton hadn’t discovered gravity, someone else eventually would have. Why does art feel unique while scientific truth feels inevitable?</li>
+  <li>Art vs Science: why does art feel unique while science feels inevitable?</li>
 </ul>
