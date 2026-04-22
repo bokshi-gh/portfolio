@@ -7,10 +7,12 @@ Tag: Curiosity
     font-weight: bold;
   }
 
-  ul {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  li:first-child {
+    margin-top: 0.5rem;
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 0.5rem;
   }
 </style>
 
