@@ -6,6 +6,10 @@ Tag: Curiosity
   strong {
     font-weight: bold;
   }
+
+  li {
+    padding-bottom: 0.5rem;
+  }
 </style>
 
 <img src="/assets/blog/images/plato-allegory-of-the-cave-illustration.jpg"
