@@ -16,10 +16,10 @@ Tag: Curiosity
 This is a collection of questions, ideas, mysteries, beliefs, and personal reflections—an exploration of reality, mind, existence, and the systems we live in, at the edges of understanding.
 </p>
 
-<!-- CORE IDEAS -->
 <details>
   <summary><strong>Core Ideas — A Map of Understanding</strong></summary>
 
+  <!-- REALITY -->
   <strong>Reality & Existence</strong>
   <ul>
     <li>existence</li>
@@ -30,8 +30,11 @@ This is a collection of questions, ideas, mysteries, beliefs, and personal refle
     <li>science</li>
     <li>curiosity</li>
     <li>information</li>
+    <li>biology</li>
+    <li>chemistry</li>
   </ul>
 
+  <!-- MIND -->
   <strong>Mind & Identity</strong>
   <ul>
     <li>time</li>
@@ -41,8 +44,15 @@ This is a collection of questions, ideas, mysteries, beliefs, and personal refle
     <li>self</li>
     <li>perception</li>
     <li>belief</li>
+
+    <li>language</li>
+    <li>communication</li>
+    <li>memory</li>
+    <li>learning</li>
+    <li>experience</li>
   </ul>
 
+  <!-- AGENCY -->
   <strong>Agency & Change</strong>
   <ul>
     <li>will</li>
@@ -55,6 +65,7 @@ This is a collection of questions, ideas, mysteries, beliefs, and personal refle
     <li>evolution</li>
   </ul>
 
+  <!-- SOCIETY -->
   <strong>Society & Systems</strong>
   <ul>
     <li>money</li>
@@ -62,17 +73,19 @@ This is a collection of questions, ideas, mysteries, beliefs, and personal refle
     <li>economy</li>
     <li>business</li>
     <li>power</li>
-    <li>government</>
     <li>control</li>
+    <li>government</li>
     <li>war</li>
     <li>politics</li>
     <li>society</li>
     <li>justice</li>
+    <li>law</li>
     <li>history</li>
     <li>religion</li>
     <li>inequality</li>
   </ul>
 
+  <!-- HUMAN EXPERIENCE -->
   <strong>Human Experience</strong>
   <ul>
     <li>fear</li>
@@ -87,23 +100,32 @@ This is a collection of questions, ideas, mysteries, beliefs, and personal refle
     <li>good</li>
     <li>evil</li>
     <li>judgment</li>
+
+    <li>loneliness</li>
+    <li>hope</li>
+    <li>anxiety</li>
   </ul>
 
-  <strong>Nature & World</strong>
-  <ul>
-    <li>nature</li>
-    <li>geography</li>
-  </ul>
-
+  <!-- KNOWLEDGE -->
   <strong>Knowledge Domains</strong>
   <ul>
     <li>physics</li>
     <li>mathematics</li>
     <li>computer science</li>
+    <li>technology</li>
     <li>philosophy</li>
     <li>psychology</li>
   </ul>
 
+  <!-- WORLD -->
+  <strong>Nature & World</strong>
+  <ul>
+    <li>nature</li>
+    <li>geography</li>
+    <li>ecosystem</li>
+  </ul>
+
+  <!-- ART -->
   <strong>Art & Literature</strong>
   <ul>
     <li>art
