@@ -7,12 +7,10 @@ Tag: Curiosity
     font-weight: bold;
   }
 
-  ul li:first-child {
-    padding-top: 0.5rem;
-  }
-
-  ul li:not(:last-child) {
-    padding-bottom: 0.5rem;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 </style>
 
@@ -239,14 +237,14 @@ This is a collection of questions, ideas, mysteries, beliefs, and personal refle
   <li>What is the first rule of Fight Club?</li>
   <li>The Matrix & the rat race: are we trapped in systems we don’t question?</li>
   <li>Education system</li>
-  <li><a href="https://youtu.be/j5v8D-alAKE?si=2qu1H66uDCQJiGo1">Why can’t we have nice things?</a></li>
+  <li><a href="https://youtu.be/j5v8D-alAKE?si=2qu1H66uDCQJiGo1" target="_blank">Why can’t we have nice things?</a></li>
 
   <li>War</li>
 
   <li>Fear:
     <ul>
       <li>Fear of judgment</li>
-      <li><a href="https://www.facebook.com/reel/2582583038770014" href="_blank">Fear of death</a></li>
+      <li><a href="https://www.facebook.com/reel/2582583038770014" target="_blank">Fear of death</a></li>
     </ul>
   </li>
 
