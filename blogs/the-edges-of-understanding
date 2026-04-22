@@ -16,7 +16,7 @@ Tag: Curiosity
 This is a collection of questions, ideas, mysteries, beliefs, and personal reflections—an exploration of reality, mind, existence, and the systems we live in, at the edges of understanding.
 </p>
 
-<details>
+<details style="display: hidden;">
   <summary><strong>Core Ideas — A Map of Understanding</strong></summary>
 
   <strong>Reality & Existence</strong>
@@ -229,6 +229,7 @@ This is a collection of questions, ideas, mysteries, beliefs, and personal refle
 <strong>Origins of Life</strong>
 <ul>
   <li>How did the first self-replicating life emerge from non-living matter?</li>
+  <li>The theory of evolution</li>
 </ul>
 
 <strong>Computer Science</strong>
