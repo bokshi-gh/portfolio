@@ -2,6 +2,13 @@ Title: The Search for Truth and Reality
 Date: March 5, 2026  
 Tag: Philosophy
 
+<style>
+  .group {
+    display: flex;
+    gap: 0.5rem;
+  }
+</style>
+
 <h3>Our Perception of Truth</h3>
 
 <h4>Perception of Truth Through Belief</h4>
@@ -29,7 +36,7 @@ Tag: Philosophy
 
 <h4>Subjective Truth and Reality</h4>
 <h5>My Personal View on Morality</h5>
-<div>
+<div class="group">
   <p>I don’t personally believe in a god or a higher authority.</p>
   <p>I think that since <u>there is no superior entity deciding what's fair or unfair, what's right or wrong,</u> our sense of morality comes from human needs, experiences, and social agreements rather than any universal rule.</p>
   <p>So nothing is actually wrong; we act according to our need</p>
@@ -38,7 +45,7 @@ Tag: Philosophy
 </div>
 
 <h5>Reality Through Our Senses</h5>
-<div>
+<div class="group">
   <p>Even our brain doesn’t portray reality exactly as it is. It does its best to interpret the world through our limited senses—like sight, hearing, smell, taste, and touch.</p>
   <p>Different animals experience reality in completely different ways. Some can see ultraviolet light, others can hear frequencies we can’t. What we see and hear is only a small slice of what actually exists.</p>
   <p>This means our understanding of reality is not the reality itself, but a simplified version shaped by our biology. We don’t perceive the world as it is—we perceive it as we are.</p>
