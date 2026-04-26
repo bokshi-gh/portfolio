@@ -6,6 +6,9 @@ Tag: Philosophy
      cb {
           background-color: #D3D3D3;
      }
+     b {
+          font-weight: bold;
+     }
 </style>
 
 <img src="/assets/blog/images/plato-allegory-of-the-cave-illustration.jpg"
@@ -30,7 +33,7 @@ Tag: Philosophy
 <h4>Surrogate Thinking</h4>
 <p>We often think we’re forming our own opinions, but in reality, many of our beliefs are shaped by what others already believe. Instead of thinking things through from first principles, we adopt ideas that are already popular or widely accepted.</p>
 <p>Take a simple question: <i>Who is your favorite football player?</i></p>
-<p>I’m not a magician, but there’s a high probability your answer is either <strong>Lionel Messi</strong> or <strong>Cristiano Ronaldo</strong>.</p>
+<p>I’m not a magician, but there’s a high probability your answer is either <b>Lionel Messi</b> or <b>Cristiano Ronaldo</b>.</p>
 <p>Why are we so predictable?</p>
 <p>There was a time when you didn’t have a favorite player. At some point, you had to choose. But did you ever stop and ask yourself why you chose that particular player?</p>
 <p>Was it purely your own judgment—based on how you independently evaluated their skills and style?</p>
@@ -101,14 +104,14 @@ How many of your beliefs are truly yours, and how many are inherited from the cr
 <p>This approach is similar to Bayesian thinking, where beliefs are adjusted as evidence changes, rather than treated as final truths.</p>
 <p>Rationality is not about knowing every fact, but about knowing which facts are relevant in a given situation and how to weigh them correctly.</p>
 <p>The ability to observe without immediately evaluating is also a form of deep intelligence, because it allows perception to remain clear before bias or judgment distorts it.</p>
-<p>It also requires intellectual humility: the ability to not rush into judgment, and to accept that our perspective is always incomplete. As Socrates is often paraphrased, <cb>"I know that I know nothing"</cb>—a reminder that awareness of our ignorance is the starting point of wisdom.</p>
+<p>It also requires intellectual humility: the ability to not rush into judgment, and to accept that our perspective is always incomplete. <cb>As Socrates is often paraphrased, "I know that I know nothing"</cb>—a reminder that awareness of our ignorance is the starting point of wisdom.</p>
 <p>Together, these ideas suggest an optimal path: to reason carefully, remain open to revision, and act despite uncertainty rather than being paralyzed by it.</p>
 
 <h3>The Leap Beyond Reason</h3>
 <p>While rational thinking helps us navigate uncertainty by updating beliefs and weighing evidence, it may not always be enough to guide action in moments where certainty is impossible.</p>
 <h4>Leap of Faith</h4>
 <p>A leap of faith is when you commit to something without complete rational proof.</p>
-<p>Søren Kierkegaard’s idea of the <strong>"leap of faith"</strong> suggests that reason can take you only so far. At some point, if you want to believe or commit deeply, you must go beyond evidence.</p>
+<p>Søren Kierkegaard’s idea of the <b>"leap of faith"</b> suggests that reason can take you only so far. At some point, if you want to believe or commit deeply, you must go beyond evidence.</p>
 <p>This is not blind stupidity—he acknowledges the importance of reason—but argues:</p>
   <ul>
     <li>Rational thinking cannot fully explain certain truths (such as God)</li>
