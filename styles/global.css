@@ -1,13 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css");
 
-@font-face {
-  font-family: Verdana;
-  src: url(/assets/fonts/verdana-font-family/verdana.ttf) format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; /* Helps prevent render-blocking (optional but recommended) */
-}
-
 * {
   margin: 0px;
   padding: 0px;
@@ -15,7 +7,6 @@
 }
 
 body {
-  font-family: Verdana, sans-serif;
   font-size: 18px;
   font-weight: 200;
   display: flex;
