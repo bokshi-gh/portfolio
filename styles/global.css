@@ -8,14 +8,6 @@
   font-display: swap; /* Helps prevent render-blocking (optional but recommended) */
 }
 
-@font-face {
-  font-family: 'Verdana Bold';
-  src: url(/assets/fonts/verdana-font-family/verdana-bold.ttf) format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; /* Helps prevent render-blocking (optional but recommended) */
-}
-
 * {
   margin: 0px;
   padding: 0px;
