@@ -27,3 +27,7 @@
   flex-direction: column;
   gap: 1rem;
 }
+
+ul {
+  padding-left: 1.5rem;
+}
