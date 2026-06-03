@@ -11,7 +11,7 @@ Tag: Personal Notes
     margin-bottom: 0.5rem;
   }
 
-  li:first-child {
+  ul ul li:first-child {
     margin-top: 0.5rem;
   }
 </style>
@@ -247,6 +247,7 @@ Tag: Personal Notes
       <ul>
         <li>Problems with Democracy (Plato & Socrates)
           <ul>
+            <li>The Ship of State metaphor in Book VI of Plato's The Republic </li>
             <li>Mob rule and uninformed decisions</li>
             <li>Manipulation by rhetoric and emotions</li>
             <li>Execution of Socrates as a failure of democracy</li>
