@@ -6,7 +6,12 @@
   gap: 0.5rem;
 }
 
-.container .blog-list .blog span:nth-child(2) {
+.container .wrapper .blog-list .blog .date-and-tag {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.container .wrapper .blog-list .blog span:nth-child(2) {
 	padding: 0.2rem;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
