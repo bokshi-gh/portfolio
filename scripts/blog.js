@@ -1,6 +1,6 @@
 const blogTitle = document.getElementsByTagName("h3")[0];
 const blogDate = document.getElementById("date");
-const blogTag = document.getElementsByTagName("span")[0];
+const blogTags = document.getElementsByTagName("span")[0];
 const blogContent = document.getElementById("content");
 
 blogDate.innerText = "fetching blog contents..."
@@ -23,7 +23,7 @@ const fetchBlog = async (linkTitle) => {
 
         const title = lines[0].slice(7);
         const date = lines[1].slice(6);
-        const tag = lines[2].slice(5);
+        const tags = lines[2].slice(5);
         const content = raw.slice(indexOfDoubleNewline + 2, raw.length);
 
 
@@ -31,14 +31,14 @@ const fetchBlog = async (linkTitle) => {
 
         document.title = title + " | " + "Rajesh Thapa";
         blogTitle.innerText = title;
-        blogDate.innerHTML = `<i class="fa-solid fa-calendar"></i>` + " " + date;
-        blogTag.innerText = tag;
+        blogDate.innerHTML = date;
+        blogTags.innerText = tags;
         blogContent.innerHTML = content;
 
         const seperator = document.createElement('p');
         seperator.textContent = '|';
         blogDate.after(seperator);
-        blogTag.style.display = "block";
+        blogTags.style.display = "block";
     } catch (error) {
         blogDate.innerText = "";
         blogDate.innerText = `Failed to fetch Blog contents.\r\n\r\nEither the blog you are trying to find was deleted/migrated or simply didn't existed.\r\n\r\n${error}`;

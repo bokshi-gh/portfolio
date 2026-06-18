@@ -17,16 +17,16 @@ const fetchBlog = async (data) => {
             let lines = raw.split('\n');
             const title = lines[0].slice(7);
             const date = lines[1].slice(6);
-            const tag = lines[2].slice(5);
+            const tags = lines[2].slice(5);
 
             const linkTitle = blog.name;
             const element = `
                 <div class="blog">
                     <a href="blog.html?title=${linkTitle}">${title}</a>
-                    <div class="date-and-tag">
-                      <span><i class="fa-solid fa-calendar"></i> ${date}</span>
+                    <div class="date-and-tags">
+                      <span>${date}</span>
                       |
-                      <span>${tag}</span>
+                      <span>${tags}</span>
                     </div>
                 </div>
             `
