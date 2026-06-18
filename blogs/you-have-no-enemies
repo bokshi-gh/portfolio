@@ -1,16 +1,34 @@
 Title: You Have No Enemies  
 Date: June 19, 2026
-Tag: Philosophy  
+Tag: Philosophy
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/c7k7LRjMTbI?autoplay=1&mute=1&loop=1&playlist=c7k7LRjMTbI&controls=1"
-  title="YouTube video player"
-  frameborder="0"
-  allow="autoplay; encrypted-media"
-  allowfullscreen>
-</iframe>
+<style>
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style>
+
+<div class="video-wrapper">
+  <iframe
+    src="https://www.youtube.com/embed/c7k7LRjMTbI?autoplay=1&mute=1&loop=1&playlist=c7k7LRjMTbI&controls=1"
+    title="YouTube video player"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+</div>
 
 <p>
   They told you to be a warrior.<br>
