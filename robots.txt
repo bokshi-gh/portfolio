@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bokshi-gh.github.io/sitemap.xml
