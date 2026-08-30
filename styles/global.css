@@ -22,7 +22,7 @@ body {
   width: 100%;
 }
 
-.container .back {
+.container .back a:visited {
   color: #0000EE;
 }
 
